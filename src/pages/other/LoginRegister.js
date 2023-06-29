@@ -15,7 +15,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-
+import { storeImageToFireBase } from "./../../utils/storeImageToFirebase.";
 const LoginRegister = ({ location }) => {
   const history = useHistory();
   const { pathname } = location;
@@ -33,7 +33,9 @@ const LoginRegister = ({ location }) => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [mst, setMST] = useState("");
-
+  const [selectedFile, setSelectedFile] = useState();
+  const [imgAvatar, setImgAvatar] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
   const [activeTab, setActiveTab] = useState("login");
 
   const [redirectToHome, setRedirectToHome] = useState(false);
@@ -112,7 +114,38 @@ const LoginRegister = ({ location }) => {
       toast.error(error.response.data.message);
     }
   };
-
+  useEffect(
+    () => {
+      const uploadImage = async () => {
+        setIsLoading(true);
+        if (!selectedFile) {
+          setIsLoading(false);
+          return;
+        }
+        const { isSuccess, imageUrl, message } = await storeImageToFireBase(
+          selectedFile
+        );
+        if (isSuccess) {
+          setImgAvatar(imageUrl);
+          setIsLoading(false);
+          return imageUrl;
+        } else {
+          console.log(message);
+        }
+        setIsLoading(false);
+      };
+      uploadImage();
+    },
+    // eslint-disable-next-line
+    [selectedFile]
+  );
+  const onSelectFile = (e) => {
+    if (!e.target.files || e.target.files.length === 0) {
+      setSelectedFile(undefined);
+      return;
+    }
+    setSelectedFile(e.target.files[0]);
+  };
   return (
     <Fragment>
       <MetaTags>
@@ -132,7 +165,7 @@ const LoginRegister = ({ location }) => {
         <div className="login-register-area pt-100 pb-100">
           <div className="container">
             <div className="row">
-              <div className="col-lg-7 col-md-12 ml-auto mr-auto">
+              <div className="col-lg-8 col-md-12 ml-auto mr-auto">
                 <div className="login-register-wrapper">
                   <Tab.Container defaultActiveKey={activeTab}>
                     <Nav variant="pills" className="login-register-tab-list">
@@ -194,6 +227,34 @@ const LoginRegister = ({ location }) => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="register">
                         <div className="login-form-container">
+                          <div className="login-img-avatar">
+                            {imgAvatar == null || imgAvatar === "" ? (
+                              <img
+                                src="https://i.pinimg.com/originals/c6/e5/65/c6e56503cfdd87da299f72dc416023d4.jpg"
+                                alt="avatar"
+                              />
+                            ) : (
+                              <img src={imgAvatar} alt="avatar" />
+                            )}
+                            {isLoading ? (
+                              <div className="cover-img-avatar">
+                                <div className="loading-img-avatar">
+                                  loading...
+                                </div>
+                              </div>
+                            ) : (
+                              <div className="cover-img-avatar">
+                                <input
+                                  type="file"
+                                  name="profileImageUrl"
+                                  accept="image/*"
+                                  onChange={onSelectFile}
+                                  id="upload"
+                                />
+                                <div className="loading-img-avatar">upload</div>
+                              </div>
+                            )}
+                          </div>
                           <div className="login-register-form">
                             <form onSubmit={handleRegistration}>
                               <input
@@ -232,8 +293,16 @@ const LoginRegister = ({ location }) => {
                                   setEmail(event.target.value)
                                 }
                               />
-                              <FormControl fullWidth style={{paddingBottom:'15px', marginBottom:'15px'}}>
-                                <InputLabel id="demo-simple-select-label">Bạn là ?</InputLabel>
+                              <FormControl
+                                fullWidth
+                                style={{
+                                  paddingBottom: "15px",
+                                  marginBottom: "15px",
+                                }}
+                              >
+                                <InputLabel id="demo-simple-select-label">
+                                  Bạn là ?
+                                </InputLabel>
                                 <Select
                                   labelId="demo-simple-select-label"
                                   id="demo-simple-select"
@@ -250,9 +319,7 @@ const LoginRegister = ({ location }) => {
                                 placeholder="Mã số thuế"
                                 type="mst"
                                 value={mst}
-                                onChange={(event) =>
-                                  setMST(event.target.value)
-                                }
+                                onChange={(event) => setMST(event.target.value)}
                               />
                               <input
                                 name="user-phone"

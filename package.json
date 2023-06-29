@@ -13,6 +13,7 @@
     "animate.css": "^3.7.2",
     "axios": "^0.19.2",
     "bootstrap": "4.6.0",
+    "firebase": "^9.8.2",
     "formik": "^2.2.9",
     "google-maps-react": "^2.0.2",
     "mdb-react-ui-kit": "^6.0.0",

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Sản phẩm phổ biến nhất",
+    "subtitle": "Chất lượng và uy tín <br /> 2023",
+    "image": "/assets/img/slider/1.jpg",
+    "url": "/collection"
+  },
+  {
+    "id": 2,
+    "title": "Sản phẩm phổ biến nhất",
+    "subtitle": "Chất lượng và uy tín <br /> 2023",
+    "image": "/assets/img/slider/2.jpg",
+    "url": "/collection"
+  },
+  {
+    "id": 3,
+    "title": "Sản phẩm phổ biến nhất",
+    "subtitle": "Chất lượng và uy tín <br /> 2023",
+    "image": "/assets/img/slider/3.jpg",
+    "url": "/collection"
+  },
+  {
+    "id": 4,
+    "title": "Sản phẩm phổ biến nhất",
+    "subtitle": "Chất lượng và uy tín <br /> 2023",
+    "image": "/assets/img/slider/4.jpg",
+    "url": "/collection"
+  },
+  {
+    "id": 5,
+    "title": "Sản phẩm phổ biến nhất",
+    "subtitle": "Chất lượng và uy tín <br /> 2023",
+    "image": "/assets/img/slider/5.jpg",
+    "url": "/collection"
+  },
+  {
+    "id": 6,
+    "title": "Sản phẩm phổ biến nhất",
+    "subtitle": "Chất lượng và uy tín <br /> 2023",
+    "image": "/assets/img/slider/6.jpg",
+    "url": "/collection"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "image": "/assets/img/team/1.jpg",
+    "fbLink": "https://www.facebook.com/partypals.info",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "https://www.instagram.com/partypals.info/",
+    "name": "Lý Quốc Lâm",
+    "position": "CEO"
+  },
+  {
+    "id": "2",
+    "image": "/assets/img/team/2.jpg",
+    "fbLink": "https://www.facebook.com/partypals.info",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "https://www.instagram.com/partypals.info/",
+    "name": "Trần Anh Tuấn",
+    "position": "CFO"
+  },
+  {
+    "id": "3",
+    "image": "/assets/img/team/6.jpg",
+    "fbLink": "https://www.facebook.com/partypals.info",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "https://www.instagram.com/partypals.info/",
+    "name": "Phạm Thị Ánh Linh",
+    "position": "CMO"
+  },
+  {
+    "id": "4",
+    "image": "/assets/img/team/5.jpg",
+    "fbLink": "https://www.facebook.com/partypals.info",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "https://www.instagram.com/partypals.info/",
+    "name": "Trương Thị Thủy Tiên",
+    "position": "CCO"
+  },
+  {
+    "id": "5",
+    "image": "/assets/img/team/3.jpg",
+    "fbLink": "https://www.facebook.com/partypals.info",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "https://www.instagram.com/partypals.info/",
+    "name": "Lê Thái Bảo Toàn",
+    "position": "CTO"
+  },
+  {
+    "id": "6",
+    "image": "/assets/img/team/4.jpg",
+    "fbLink": "https://www.facebook.com/partypals.info",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "https://www.instagram.com/partypals.info/",
+    "name": "Phạm Hữu Phúc",
+    "position": "COO"
+  },
+  {
+    "id": "7",
+    "image": "/assets/img/team/7.jpg",
+    "fbLink": "https://www.facebook.com/partypals.info",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "https://www.instagram.com/partypals.info/",
+    "name": "Trịnh Bình Minh",
+    "position": "COO"
+  },
+  {
+    "id": "8",
+    "image": "/assets/img/team/9.jpg",
+    "fbLink": "https://www.facebook.com/partypals.info",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "https://www.instagram.com/partypals.info/",
+    "name": "Lê Võ Anh Duy",
+    "position": "COO"
+  }
+]

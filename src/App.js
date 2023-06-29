@@ -132,7 +132,7 @@ const App = (props) => {
                   component={MyAccount}
                 />
                 <Route
-                  path={process.env.PUBLIC_URL + !isChecked ? "login-register" : "home"}
+                  path={process.env.PUBLIC_URL + !isChecked ? "/login-register" : "/home"}
                   component={LoginRegister}
                 />
                 <Route

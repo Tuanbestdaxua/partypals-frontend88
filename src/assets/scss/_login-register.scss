@@ -50,6 +50,46 @@
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
     padding: 80px;
     text-align: left;
+    display: flex;
+    .login-img-avatar{
+    border-right: 2px solid #ddd;
+    margin-right: 20px;
+      img {
+            width: 160px;
+                height: 160px;
+
+    border-radius: 50%;
+    margin-right: 55px;
+      }
+      .cover-img-avatar{
+            position: relative;
+                margin-top: 20px;
+        input{
+              position: absolute;
+          width: 70%;
+          height: 35px;
+          cursor: pointer;
+          z-index: 1;
+          opacity: 0;
+        }
+      .loading-img-avatar{
+            position: absolute;
+    top: 0px;
+        width: 70%;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: medium none;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 11px 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+      }
+      }
+    }
     @media #{$lg-layout} {
       padding: 80px 50px;
     }

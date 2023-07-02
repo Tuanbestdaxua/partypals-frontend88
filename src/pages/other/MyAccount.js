@@ -1,0 +1,272 @@
+import PropTypes from "prop-types";
+import React, { Fragment, useEffect, useState } from "react";
+import MetaTags from "react-meta-tags";
+import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
+import Card from "react-bootstrap/Card";
+import Accordion from "react-bootstrap/Accordion";
+import LayoutOne from "../../layouts/LayoutOne";
+import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+import { useFormik } from "formik";
+import * as Yup from 'yup'
+import { useDispatch, useSelector } from "react-redux";
+
+const MyAccount = ({ location }) => {
+  const { pathname } = location;
+
+  const dispatch = useDispatch();
+
+  const userData = useSelector(
+    (state) => state.userReducer.user
+  );
+
+  // const phoneRegExp = /(84|0[3|5|7|8|9])+([0-9]{8})\b/g
+  // const [profile, setProfile] = useState([])
+
+  // const baseURL = 'https://partypal-vwog.onrender.com/api/users'
+  // useEffect(() => {
+  //   const getUserProfile = async () => {
+  //     const user = await localStorage.getItem('access_token');
+  //     console.log(user);
+  //     if (user) {
+  //       setProfile(user);
+  //     }
+  //     console.log(profile);
+  //   };
+  
+  //   getUserProfile();
+  // }, []);
+
+  // const editAccount = useFormik({
+  //   initialValues: {
+  //     name: '',
+  //     image: '',
+  //     email: '',
+  //     phone: '',
+  //     tax: '',
+  //   },
+  //   validationSchema: Yup.object({
+  //     name: Yup.string()
+  //       .min(5, 'Tên phải tối thiểu 5 ký tự')
+  //       .max(25, 'Tên phải dưới 25 ký tự')
+  //       .required('Không được để trống ô này'),
+  //     email: Yup.string().required("Không được để trống ô này"),
+  //     image: Yup.string().required('Bạn phải tải ảnh lên'),
+  //     phone: Yup.string()
+  //       .required()
+  //       .matches(phoneRegExp, 'Số điện thoại này không tồn tại'),
+  //   }),
+  //   onSubmit: async (values) => {
+  //     try {
+  //       await submitImage()
+
+  //       const editAccountResponse = await fetch(baseURL, {
+  //         method: 'PUT',
+  //         body: JSON.stringify(values),
+  //         headers: {
+  //           'Content-Type': 'application/json',
+  //         },
+  //         credentials: 'same-origin',
+  //       })
+  //       if (!editAccountResponse.ok) {
+  //         throw new Error(`HTTP Status: ${editAccountResponse.status}`)
+  //       }
+  //     } catch (error) {
+  //       console.log(error.message)
+  //     }
+  //   },
+  // })
+
+
+  return (
+    <Fragment>
+      <MetaTags>
+        <title>PartyPaLs | Tài Khoản</title>
+        <meta
+          name="description"
+          content="Compare page of flone react minimalist eCommerce template."
+        />
+      </MetaTags>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
+        Tài khoản
+      </BreadcrumbsItem>
+      <LayoutOne headerTop="visible">
+        {/* breadcrumb */}
+        <Breadcrumb />
+        <div className="myaccount-area pb-80 pt-100">
+          <div className="container">
+            <div className="row">
+              <div className="ml-auto mr-auto col-lg-9">
+                <div className="myaccount-wrapper">
+                  <Accordion defaultActiveKey="0">
+                    <Card className="single-my-account mb-20">
+                      <Card.Header className="panel-heading">
+                        <Accordion.Toggle variant="link" eventKey="0">
+                          <h3 className="panel-title">
+                            <span>1 .</span> Chỉnh Sửa Thông Tin Cá Nhân{" "}
+                          </h3>
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="0">
+                        <Card.Body>
+                          <div className="myaccount-info-wrapper">
+                            <div className="account-info-wrapper">
+                              <h4>thông tin tài khoản</h4>
+                              <h5>Thông tin cá nhân của bạn</h5>
+                            </div>
+                            <div className="row">
+                              <div className="col-lg-6 col-md-6">
+                                <div className="billing-info">
+                                  <label>Họ Và Tên</label>
+                                  <input
+                                    type="text"
+                                    value={userData.name}
+                                    name="name"
+                                    // onChange={}
+                                  />
+                                </div>
+                              </div>
+                              <div className="col-lg-6 col-md-6">
+                                <div className="billing-info">
+                                  <label>Số Điện Thoại</label>
+                                  <input 
+                                  type="text"
+                                  name="phone"
+                                   />
+                                </div>
+                              </div>
+                              <div className="col-lg-6 col-md-6">
+                                <div className="billing-info">
+                                  <label>Email</label>
+                                  <input 
+                                  type="email"
+                                  value={userData.email}
+                                  name="email" />
+                                </div>
+                              </div>
+                              <div className="col-lg-6 col-md-6">
+                                <div className="billing-info">
+                                  <label>Thuế</label>
+                                  <input 
+                                  type="text" 
+                                  value={userData.tax}
+                                  name="tax"
+                                  />
+                                </div>
+                              </div>
+                              <div className="col-lg-12 col-md-12">
+                                <div className="billing-info">
+                                  <label>Địa Chỉ</label>
+                                  <input 
+                                  type="text" 
+                                  value={userData.address}
+                                  name="address"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="billing-back-btn">
+                              <div className="billing-btn">
+                                <button type="submit">Lưu Thông Tin</button>
+                              </div>
+                            </div>
+                          </div>
+                        </Card.Body>
+                      </Accordion.Collapse>
+                    </Card>
+                    <Card className="single-my-account mb-20">
+                      <Card.Header className="panel-heading">
+                        <Accordion.Toggle variant="link" eventKey="1">
+                          <h3 className="panel-title">
+                            <span>2 .</span> Đổi mật khẩu của bạn
+                          </h3>
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="1">
+                        <Card.Body>
+                          <div className="myaccount-info-wrapper">
+                            <div className="account-info-wrapper">
+                              <h4>Đổi mật khẩu</h4>
+                              <h5>Mật Khẩu Của Bạn</h5>
+                            </div>
+                            <div className="row">
+                              <div className="col-lg-12 col-md-12">
+                                <div className="billing-info">
+                                  <label>Mật Khẩu Mới</label>
+                                  <input type="password" />
+                                </div>
+                              </div>
+                              <div className="col-lg-12 col-md-12">
+                                <div className="billing-info">
+                                  <label>Nhập lại Mật Khẩu Mới</label>
+                                  <input type="password" />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="billing-back-btn">
+                              <div className="billing-btn">
+                                <button type="submit">Tiếp Tục</button>
+                              </div>
+                            </div>
+                          </div>
+                        </Card.Body>
+                      </Accordion.Collapse>
+                    </Card>
+                    <Card className="single-my-account mb-20">
+                      <Card.Header className="panel-heading">
+                        <Accordion.Toggle variant="link" eventKey="2">
+                          <h3 className="panel-title">
+                            <span>3 .</span> Đổi địa chỉ của bạn{" "}
+                          </h3>
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="2">
+                        <Card.Body>
+                          <div className="myaccount-info-wrapper">
+                            <div className="account-info-wrapper">
+                              <h4>Địa Chỉ</h4>
+                            </div>
+                            <div className="entries-wrapper">
+                              <div className="row">
+                                <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                                  <div className="entries-info text-center">
+                                    <p>John Doe</p>
+                                    <p>Paul Park </p>
+                                    <p>Lorem ipsum dolor set amet</p>
+                                    <p>NYC</p>
+                                    <p>New York</p>
+                                  </div>
+                                </div>
+                                <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                                  <div className="entries-edit-delete text-center">
+                                    <button className="edit">Chỉnh Sửa</button>
+                                    <button>Xóa</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="billing-back-btn">
+                              <div className="billing-btn">
+                                <button type="submit">Tiếp Tục</button>
+                              </div>
+                            </div>
+                          </div>
+                        </Card.Body>
+                      </Accordion.Collapse>
+                    </Card>
+                  </Accordion>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </LayoutOne>
+    </Fragment>
+  );
+};
+
+MyAccount.propTypes = {
+  location: PropTypes.object
+};
+
+export default MyAccount;

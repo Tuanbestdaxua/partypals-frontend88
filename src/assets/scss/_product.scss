@@ -471,12 +471,25 @@
   }
   .modal-body {
     padding: 35px 15px;
+        text-align: center;
+    font-size: 20px;
   }
   .quickview-big-img {
     img {
       width: 100%;
     }
   }
+}
+
+.my-next{
+      margin: auto;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bbb;
+    width: 100px;
+    height: 33px;
+    border-radius: 10px;
 }
 
 .product-details-content {

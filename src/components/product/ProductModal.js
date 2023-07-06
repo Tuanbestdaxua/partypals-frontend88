@@ -16,13 +16,13 @@ function ProductModal(props) {
   const [gallerySwiper, getGallerySwiper] = useState(null);
   const [thumbnailSwiper, getThumbnailSwiper] = useState(null);
   const [selectedProductColor, setSelectedProductColor] = useState(
-    product.variation ? product.variation[0].color : ""
+    product.variation ? product.variation.color : ""
   );
   const [selectedProductSize, setSelectedProductSize] = useState(
-    product.variation ? product.variation[0].size[0].name : ""
+    product.variation ? product.variation.name : ""
   );
   const [productStock, setProductStock] = useState(
-    product.variation ? product.variation[0].size[0].stock : product.stock
+     product.stock
   );
   const [quantityCount, setQuantityCount] = useState(1);
 
@@ -101,38 +101,24 @@ function ProductModal(props) {
             <div className="col-md-5 col-sm-12 col-xs-12">
               <div className="product-large-image-wrapper">
                 <Swiper {...gallerySwiperParams}>
-                  {product.image &&
-                    product.image.map((single, key) => {
-                      return (
-                        <div key={key}>
-                          <div className="single-image">
-                            <img
-                              src={process.env.PUBLIC_URL + single}
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                      );
-                    })}
+                  <div className="single-image">
+                    <img
+                      src={process.env.PUBLIC_URL + product.image}
+                      className="img-fluid"
+                      alt=""
+                    />
+                  </div>
                 </Swiper>
               </div>
               <div className="product-small-image-wrapper mt-15">
                 <Swiper {...thumbnailSwiperParams}>
-                  {product.image &&
-                    product.image.map((single, key) => {
-                      return (
-                        <div key={key}>
-                          <div className="single-image">
-                            <img
-                              src={process.env.PUBLIC_URL + single}
-                              className="img-fluid"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                      );
-                    })}
+                  <div className="single-image">
+                    <img
+                      src={process.env.PUBLIC_URL + product.image}
+                      className="img-fluid"
+                      alt=""
+                    />
+                  </div>
                 </Swiper>
               </div>
             </div>
@@ -142,15 +128,11 @@ function ProductModal(props) {
                 <div className="product-details-price">
                   {discountedprice !== null ? (
                     <Fragment>
-                      <span>
-                        { finaldiscountedprice + " VNĐ"}
-                      </span>{" "}
-                      <span className="old">
-                        { finalproductprice + " VNĐ"}
-                      </span>
+                      <span>{finaldiscountedprice + " VNĐ"}</span>{" "}
+                      <span className="old">{finalproductprice + " VNĐ"}</span>
                     </Fragment>
                   ) : (
-                    <span>{ finalproductprice + " VNĐ"} </span>
+                    <span>{finalproductprice + " VNĐ"} </span>
                   )}
                 </div>
                 {product.rating && product.rating > 0 ? (
@@ -171,7 +153,7 @@ function ProductModal(props) {
                     <div className="pro-details-color-wrap">
                       <span>Color</span>
                       <div className="pro-details-color-content">
-                        {product.variation.map((single, key) => {
+                        {/* {product.variation.map((single, key) => {
                           return (
                             <label
                               className={`pro-details-color-content--single ${single.color}`}
@@ -196,15 +178,14 @@ function ProductModal(props) {
                               <span className="checkmark"></span>
                             </label>
                           );
-                        })}
+                        })} */}
                       </div>
                     </div>
-                   
                   </div>
                 ) : (
                   ""
                 )}
-                {product.affiliateLink ? (
+                {/* {product.affiliateLink ? (
                   <div className="pro-details-quality">
                     <div className="pro-details-cart btn-hover">
                       <a
@@ -298,7 +279,7 @@ function ProductModal(props) {
                       </button>
                     </div>
                   </div>
-                )}
+                )} */}
               </div>
             </div>
           </div>

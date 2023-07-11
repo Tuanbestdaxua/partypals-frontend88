@@ -32,23 +32,23 @@ const ProductTabLeft = ({ location, product }) => {
         <Breadcrumb />
 
         {/* product description with image */}
-        <ProductImageDescription
+        {/* <ProductImageDescription
           spaceTopClass="pt-100"
           spaceBottomClass="pb-100"
           product={product}
           galleryType="leftThumb"
-        />
+        /> */}
 
         {/* product description tab */}
         <ProductDescriptionTab
           spaceBottomClass="pb-90"
-          productFullDesc={product.fullDescription}
+          productFullDesc={product?.fullDescription}
         />
 
         {/* related product slider */}
         <RelatedProductSlider
           spaceBottomClass="pb-95"
-          category={product.category[0]}
+          category={product?.category[0]}
         />
       </LayoutOne>
     </Fragment>

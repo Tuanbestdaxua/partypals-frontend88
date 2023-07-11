@@ -61,6 +61,54 @@
   .myaccount-info-wrapper {
     padding: 30px 20px;
     background-color: #fff;
+    .login-img-avatar {
+      display: inherit;
+      justify-content: center;
+      align-items: stretch;
+      flex-direction: column;
+      // border-right: 2px solid #ddd;
+      margin-bottom: 20px;
+
+      img {
+        width: 160px;
+        height: 160px;
+
+        border-radius: 50%;
+        margin-right: 55px;
+      }
+
+      .cover-img-avatar {
+        position: relative;
+        top: -90px;
+        left: 200px;
+
+        input {
+          position: absolute;
+          width: 25%;
+          height: 35px;
+          cursor: pointer;
+          z-index: 1;
+          opacity: 0;
+        }
+
+        .loading-img-avatar {
+          position: absolute;
+          top: 0px;
+          width: 25%;
+          text-align: center;
+          background-color: #f2f2f2;
+          border: medium none;
+          color: #333;
+          cursor: pointer;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 1;
+          padding: 11px 30px;
+          text-transform: uppercase;
+          transition: all 0.3s ease 0s;
+        }
+      }
+    }
     .account-info-wrapper {
       border-bottom: 1px solid #eaeaea;
       margin-bottom: 28px;

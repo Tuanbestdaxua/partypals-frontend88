@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
-import React from "react";
+import React,{useEffect} from "react";
 import { Link, useHistory } from "react-router-dom";
 import { connect, useDispatch, useSelector } from "react-redux";
 import MenuCart from "./sub-components/MenuCart";
 import { deleteFromCart } from "../../redux/actions/cartActions";
 import Notifications from "react-notifications-menu";
+import axiosClient from "../../axiosClient";
 
 
 const IconGroup = ({
@@ -20,6 +21,13 @@ const IconGroup = ({
 
   const history = useHistory();
 
+  useEffect(async () => {
+    const data = await axiosClient.get("user")
+    // console.log("data",data);
+    data && dispatch({ type: "SET_USER_INFORMATION", payload: data.user });
+
+  }, []);
+  
   const handleClick = e => {
     e.currentTarget.nextSibling.classList.toggle("active");
   };
@@ -141,7 +149,8 @@ const IconGroup = ({
             <Link to={process.env.PUBLIC_URL + "/login-register"}><i className="pe-7s-user" /></Link>
           </button>
         }
-        <a style={{fontSize:'15px', whiteSpace:'nowrap'}} onClick={e => handleClick(e)} >{userData && userData.name}</a>
+
+        <a style={{fontSize:'15px', whiteSpace:'nowrap'}} onClick={e => handleClick(e)} >{userData && userData?.name}</a>
 
         <div className="account-dropdown">
           <ul>

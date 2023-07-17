@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React, { useState, Fragment,useEffect } from "react";
 import MetaTags from "react-meta-tags";
 import LayoutOne from "../../layouts/LayoutOne";
 import BrandLogoSliderThree from "../../wrappers/brand-logo/BrandLogoSliderThree";
@@ -10,27 +10,38 @@ import VideoPopup from "../../components/video-popup/VideoPopup";
 import FeatureIconSix from "../../wrappers/feature-icon/FeatureIconSix";
 import HeroSliderTwentyEight from "../../wrappers/hero-slider/HeroSliderTwentyEight";
 import { Modal } from "react-bootstrap";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useHistory, Link } from 'react-router-dom';
+import axiosClient from "../../axiosClient";
 const HomeFashionEight = () => {
+  const dispatch = useDispatch();
   const history = useHistory();
+  const [modalShow, setModalShow] = useState(false);
+  useEffect(async () => {
+    const data = await axiosClient.get("user")
+    data && setModalShow(data ? data.user?.tax ||  data.user?.address ? false : true : false);
+
+  }, []);
   const userData = useSelector((state) => state.userReducer.user);
-  const [modalShow, setModalShow] = useState(userData ? userData?.phone ? false : true : false);
+  console.log(userData);
+  
   return (
     <Fragment>
-      <Modal
+      {(userData && userData.tax !== null && userData.address !== null ) ? <div></div> : <Modal
         show={modalShow}
         onHide={() => setModalShow(false)}
-        className="product-quickview-modal-wrapper"
+        className="product-quickview-modal-wrapper"   
       >
         <Modal.Header closeButton></Modal.Header>
+
         <div className="modal-body">Bạn cần hoàn thành thông tin cá nhân</div>
-        <div className="modal-body" style={{textAlign:"center"}}>
+        <div className="modal-body" style={{ textAlign: "center" }}>
           <Link to="/my-account" className="my-next">
             <span>Tiếp tục</span>
           </Link>
         </div>
-      </Modal>
+      </Modal>  }
+
       <MetaTags>
         <title>PartyPaLs | Home</title>
         <meta

@@ -1,4 +1,4 @@
-const initState = { user: { image: "", email: "", name: "", role: "" } };
+const initState = { user: { image: "", email: "", name: "", role: "", tax:"",  address:"", phone:"" } };
 
 const userReducer = (state = initState, action) => {
   if (action.type === "SET_USER_INFORMATION") {

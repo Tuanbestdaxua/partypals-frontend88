@@ -6,76 +6,113 @@ import Card from "react-bootstrap/Card";
 import Accordion from "react-bootstrap/Accordion";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
-import { useFormik } from "formik";
 import * as Yup from 'yup'
-import { useDispatch, useSelector } from "react-redux";
+import { yupResolver } from '@hookform/resolvers/yup';
+
+import axiosClient from "../../axiosClient";
+import { useForm } from "react-hook-form";
+import { storeImageToFireBase } from "./../../utils/storeImageToFirebase.";
+import { useDispatch } from "react-redux";
+import { ToastContainer, toast } from 'react-toastify';
+
+
 
 const MyAccount = ({ location }) => {
   const { pathname } = location;
 
+  const [selectedFile, setSelectedFile] = useState();
+  const [imgAvatar, setImgAvatar] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [User, setUser] = useState({})
+
   const dispatch = useDispatch();
 
-  const userData = useSelector(
-    (state) => state.userReducer.user
+  useEffect(async () => {
+    const data = await axiosClient.get("user")
+    console.log(data);
+    dispatch({ type: "SET_USER_INFORMATION", payload: data.user });
+    setUser(data.user)
+    console.log(data.user)
+
+  }, []);
+
+  const onSubmit = async (newUser) => {
+    try {
+      newUser.image = imgAvatar ? imgAvatar : newUser.image
+      console.log("newUser",newUser);
+      await axiosClient.put(`user/${User._id}`, newUser);
+      newUser.role = User.role;
+      // window.location.reload();
+      toast.success('Information saved successfully');
+    } catch (error) {
+      toast.error('Error occurred while saving information');
+    }
+  };
+
+
+  const defaultValues = {
+    name: User.name,
+    email: User.email,
+    phone: User.phone,
+    address: User.address,
+    image: User.image,
+    tax: User.tax,
+    status: true,
+    role: User.role
+  };
+  const validationSchema = Yup.object({
+    name: Yup.string().required('Vui lòng nhập họ và tên').typeError('Vui lòng nhập họ và tên'),
+    phone: Yup.number().required('Vui lòng nhập số điện thoại').typeError('Vui lòng nhập số điện thoại hợp lệ'),
+    email: Yup.string().email('Vui lòng nhập địa chỉ email hợp lệ').required('Vui lòng nhập địa chỉ email'),
+    tax: Yup.number().required('Vui lòng nhập thuế').typeError('Vui lòng nhập thuế hợp lệ'),
+    address: Yup.string().required('Vui lòng nhập địa chỉ').typeError('Vui lòng nhập địa chỉ'),
+  });
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors }
+  } = useForm({
+    defaultValues,
+    resolver: yupResolver(validationSchema)
+  });
+
+
+  useEffect(
+    () => {
+      const uploadImage = async () => {
+        setIsLoading(true);
+        if (!selectedFile) {
+          setIsLoading(false);
+          return;
+        }
+        const { isSuccess, imageUrl, message } = await storeImageToFireBase(
+          selectedFile
+        );
+        if (isSuccess) {
+          setImgAvatar(imageUrl);
+          setIsLoading(false);
+          return imageUrl;
+        } else {
+          console.log(message);
+        }
+        setIsLoading(false);
+      };
+      uploadImage();
+    },
+    // eslint-disable-next-line
+    [selectedFile]
   );
+  // console.log(imgAvatar);
+  const onSelectFile = (e) => {
+    if (!e.target.files || e.target.files.length === 0) {
+      setSelectedFile(undefined);
+      return;
+    }
+    setSelectedFile(e.target.files[0]);
+  };
 
-  // const phoneRegExp = /(84|0[3|5|7|8|9])+([0-9]{8})\b/g
-  // const [profile, setProfile] = useState([])
-
-  // const baseURL = 'https://partypal-vwog.onrender.com/api/users'
-  // useEffect(() => {
-  //   const getUserProfile = async () => {
-  //     const user = await localStorage.getItem('access_token');
-  //     console.log(user);
-  //     if (user) {
-  //       setProfile(user);
-  //     }
-  //     console.log(profile);
-  //   };
   
-  //   getUserProfile();
-  // }, []);
-
-  // const editAccount = useFormik({
-  //   initialValues: {
-  //     name: '',
-  //     image: '',
-  //     email: '',
-  //     phone: '',
-  //     tax: '',
-  //   },
-  //   validationSchema: Yup.object({
-  //     name: Yup.string()
-  //       .min(5, 'Tên phải tối thiểu 5 ký tự')
-  //       .max(25, 'Tên phải dưới 25 ký tự')
-  //       .required('Không được để trống ô này'),
-  //     email: Yup.string().required("Không được để trống ô này"),
-  //     image: Yup.string().required('Bạn phải tải ảnh lên'),
-  //     phone: Yup.string()
-  //       .required()
-  //       .matches(phoneRegExp, 'Số điện thoại này không tồn tại'),
-  //   }),
-  //   onSubmit: async (values) => {
-  //     try {
-  //       await submitImage()
-
-  //       const editAccountResponse = await fetch(baseURL, {
-  //         method: 'PUT',
-  //         body: JSON.stringify(values),
-  //         headers: {
-  //           'Content-Type': 'application/json',
-  //         },
-  //         credentials: 'same-origin',
-  //       })
-  //       if (!editAccountResponse.ok) {
-  //         throw new Error(`HTTP Status: ${editAccountResponse.status}`)
-  //       }
-  //     } catch (error) {
-  //       console.log(error.message)
-  //     }
-  //   },
-  // })
-
 
   return (
     <Fragment>
@@ -114,62 +151,116 @@ const MyAccount = ({ location }) => {
                               <h4>thông tin tài khoản</h4>
                               <h5>Thông tin cá nhân của bạn</h5>
                             </div>
-                            <div className="row">
-                              <div className="col-lg-6 col-md-6">
-                                <div className="billing-info">
-                                  <label>Họ Và Tên</label>
-                                  <input
-                                    type="text"
-                                    value={userData.name}
-                                    name="name"
-                                    // onChange={}
-                                  />
+                            <form onSubmit={handleSubmit(onSubmit)}>
+                              <div className="row">
+                                <div className="col-lg-12 col-md-12">
+                                  <div className="login-img-avatar" style={{ textAlign: 'center' }}>
+                                    {imgAvatar == null || imgAvatar === "" ? (
+                                      <img
+                                        src={User.image}
+                                        alt="avatar"
+                                      />
+                                    ) : (
+                                      <img src={imgAvatar} alt="avatar" />
+                                    )}
+                                    {isLoading ? (
+                                      <div className="cover-img-avatar">
+                                        <div className="loading-img-avatar">
+                                          loading...
+                                        </div>
+                                      </div>
+                                    ) : (
+                                      <div className="cover-img-avatar">
+                                        <input
+                                          type="file"
+                                          name="profileImageUrl"
+                                          accept="image/*"
+                                          onChange={onSelectFile}
+                                          id="upload"
+                                        />
+                                        <div className="loading-img-avatar">upload</div>
+                                      </div>
+                                    )}
+                                  </div>
+                                </div>
+                                <div className="col-lg-12 col-md-12"></div>
+                                <div className="col-lg-6 col-md-6" style={{ marginTop: '50px' }}>
+                                  <div className="billing-info">
+                                    <label>Họ Và Tên</label>
+                                    <input
+                                      type="text"
+                                      defaultValue={User.name}
+                                      name="name"
+                                      {...register("name")}
+                                    />
+                                    {errors.name && (
+                                      <p style={{color: 'red'}}>{errors.name.message}</p>
+                                    )}
+                                  </div>
+                                </div>
+                                <div className="col-lg-6 col-md-6" style={{ marginTop: '50px' }}>
+                                  <div className="billing-info">
+                                    <label>Số Điện Thoại</label>
+                                    <input
+                                      type="text"
+                                      name="phone"
+                                      defaultValue={User.phone}
+                                      {...register("phone")}
+                                    />
+                                     {errors.phone && (
+                                      <p style={{color: 'red'}}>{errors.phone.message}</p>
+                                    )}
+                                  </div>
+                                </div>
+                                <div className="col-lg-6 col-md-6">
+                                  <div className="billing-info">
+                                    <label>Email</label>
+                                    <input
+                                      type="email"
+                                      defaultValue={User.email}
+                                      name="email"
+                                      {...register("email")}
+                                    />
+                                     {errors.email && (
+                                      <p style={{color: 'red'}}>{errors.email.message}</p>
+                                    )}
+                                  </div>
+                                </div>
+                                <div className="col-lg-6 col-md-6">
+                                  <div className="billing-info">
+                                    <label>Thuế</label>
+                                    <input
+                                      type="text"
+                                      defaultValue={User.tax}
+                                      name="tax"
+                                      {...register("tax")}
+                                    />
+                                     {errors.tax && (
+                                      <p style={{color: 'red'}}>{errors.tax.message}</p>
+                                    )}
+                                  </div>
+                                </div>
+                                <div className="col-lg-12 col-md-12">
+                                  <div className="billing-info">
+                                    <label>Địa Chỉ</label>
+                                    <input
+                                      type="text"
+                                      defaultValue={User.address}
+                                      name="address"
+                                      {...register("address")}
+                                    />
+                                     {errors.address && (
+                                      <p style={{color: 'red'}}>{errors.address.message}</p>
+                                    )}
+                                  </div>
                                 </div>
                               </div>
-                              <div className="col-lg-6 col-md-6">
-                                <div className="billing-info">
-                                  <label>Số Điện Thoại</label>
-                                  <input 
-                                  type="text"
-                                  name="phone"
-                                   />
+                              <div className="billing-back-btn">
+                                <div className="billing-btn">
+                                  <input value="Lưu Thông Tin" type="submit" />
                                 </div>
                               </div>
-                              <div className="col-lg-6 col-md-6">
-                                <div className="billing-info">
-                                  <label>Email</label>
-                                  <input 
-                                  type="email"
-                                  value={userData.email}
-                                  name="email" />
-                                </div>
-                              </div>
-                              <div className="col-lg-6 col-md-6">
-                                <div className="billing-info">
-                                  <label>Thuế</label>
-                                  <input 
-                                  type="text" 
-                                  value={userData.tax}
-                                  name="tax"
-                                  />
-                                </div>
-                              </div>
-                              <div className="col-lg-12 col-md-12">
-                                <div className="billing-info">
-                                  <label>Địa Chỉ</label>
-                                  <input 
-                                  type="text" 
-                                  value={userData.address}
-                                  name="address"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                            <div className="billing-back-btn">
-                              <div className="billing-btn">
-                                <button type="submit">Lưu Thông Tin</button>
-                              </div>
-                            </div>
+                            </form>
                           </div>
                         </Card.Body>
                       </Accordion.Collapse>
@@ -212,48 +303,6 @@ const MyAccount = ({ location }) => {
                         </Card.Body>
                       </Accordion.Collapse>
                     </Card>
-                    <Card className="single-my-account mb-20">
-                      <Card.Header className="panel-heading">
-                        <Accordion.Toggle variant="link" eventKey="2">
-                          <h3 className="panel-title">
-                            <span>3 .</span> Đổi địa chỉ của bạn{" "}
-                          </h3>
-                        </Accordion.Toggle>
-                      </Card.Header>
-                      <Accordion.Collapse eventKey="2">
-                        <Card.Body>
-                          <div className="myaccount-info-wrapper">
-                            <div className="account-info-wrapper">
-                              <h4>Địa Chỉ</h4>
-                            </div>
-                            <div className="entries-wrapper">
-                              <div className="row">
-                                <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
-                                  <div className="entries-info text-center">
-                                    <p>John Doe</p>
-                                    <p>Paul Park </p>
-                                    <p>Lorem ipsum dolor set amet</p>
-                                    <p>NYC</p>
-                                    <p>New York</p>
-                                  </div>
-                                </div>
-                                <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
-                                  <div className="entries-edit-delete text-center">
-                                    <button className="edit">Chỉnh Sửa</button>
-                                    <button>Xóa</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="billing-back-btn">
-                              <div className="billing-btn">
-                                <button type="submit">Tiếp Tục</button>
-                              </div>
-                            </div>
-                          </div>
-                        </Card.Body>
-                      </Accordion.Collapse>
-                    </Card>
                   </Accordion>
                 </div>
               </div>
@@ -261,6 +310,7 @@ const MyAccount = ({ location }) => {
           </div>
         </div>
       </LayoutOne>
+      <ToastContainer />
     </Fragment>
   );
 };

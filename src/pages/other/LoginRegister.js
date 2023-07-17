@@ -32,7 +32,6 @@ const LoginRegister = ({ location }) => {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [mst, setMST] = useState("");
   const [selectedFile, setSelectedFile] = useState();
   const [imgAvatar, setImgAvatar] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -52,6 +51,7 @@ const LoginRegister = ({ location }) => {
       history.push("/login-register");
     }
   }, [redirectToLogin, history]);
+
   const dispatch = useDispatch();
 
   const handleLogin = async (event) => {
@@ -66,7 +66,6 @@ const LoginRegister = ({ location }) => {
         password: password,
       });
       localStorage.setItem("access_token", data.token);
-      dispatch({ type: "SET_USER_INFORMATION", payload: data.user });
       console.log(data);
       toast.success("Login Successfull");
       setRedirectToHome(true);
@@ -79,6 +78,8 @@ const LoginRegister = ({ location }) => {
     // Reset giá trị trong form
     setUsername("");
     setPassword("");
+
+
   };
 
   const handleRegistration = async (event) => {
@@ -89,7 +90,6 @@ const LoginRegister = ({ location }) => {
     console.log("Username:", username);
     console.log("Password:", password);
     console.log("Email:", email);
-    console.log("MST:", mst);
     console.log("Phone:", phone);
 
     // Reset giá trị trong form
@@ -97,8 +97,8 @@ const LoginRegister = ({ location }) => {
     setUsername("");
     setPassword("");
     setEmail("");
-    setMST("")
     setPhone("");
+    setImgAvatar("")
 
     try {
       const dataRegister = await axiosClient.post("signUp", {
@@ -106,7 +106,7 @@ const LoginRegister = ({ location }) => {
         username: username,
         password: password,
         email: email,
-        mst: mst,
+        image: imgAvatar,
         phone: phone
       });
       toast.success(dataRegister.message);
@@ -189,8 +189,8 @@ const LoginRegister = ({ location }) => {
                       </Nav.Item>
                     </Nav>
                     <Tab.Content>
-                      <Tab.Pane eventKey="login" style={{paddingLeft:'100px', paddingRight: '100px'}}>
-                        <div className="login-form-container" style={{justifyContent:'space-evenly'}}>
+                      <Tab.Pane eventKey="login" style={{ paddingLeft: '100px', paddingRight: '100px' }}>
+                        <div className="login-form-container" style={{ justifyContent: 'space-evenly' }}>
                           <div className="login-register-form">
                             <form onSubmit={handleLogin}>
                               <input
@@ -316,13 +316,7 @@ const LoginRegister = ({ location }) => {
                                   <MenuItem value={20}>Doanh Nghiệp</MenuItem>
                                 </Select>
                               </FormControl>
-                              <input
-                                name="mst"
-                                placeholder="Mã số thuế"
-                                type="mst"
-                                value={mst}
-                                onChange={(event) => setMST(event.target.value)}
-                              />
+
                               <input
                                 name="user-phone"
                                 placeholder="Số Điện Thoại"

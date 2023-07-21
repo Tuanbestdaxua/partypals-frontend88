@@ -51,7 +51,7 @@ const ProductDescriptionInfo = ({
     const getAccountInfo = async () => {
       Axios({
         method: "GET",
-        url: `https://partypal-vwog.onrender.com/api/variation/${product.id}`,
+        url: `https://partypal-vwog.onrender.com/api/variation/${product._id}`,
       })
         .then((res) => {
           setVariation(res.data.variation);

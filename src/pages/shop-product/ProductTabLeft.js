@@ -8,11 +8,27 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import RelatedProductSlider from "../../wrappers/product/RelatedProductSlider";
 import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab";
 import ProductImageDescription from "../../wrappers/product/ProductImageDescription";
+import Axios from "axios";
 
 const ProductTabLeft = ({ location, product }) => {
-  console.log("🚀 ~ file: ProductTabLeft.js:13 ~ ProductTabLeft ~ product:", product)
   const { pathname } = location;
-
+  const [data, setData] = React.useState(null);
+  React.useEffect(() => {
+    const getAccountInfo = async () => {
+      Axios({
+        method: "GET",
+        url: `https://partypal-vwog.onrender.com/api/product/${product.id}`,
+      })
+        .then((res) => {
+          setData(res.data.product);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    };
+    getAccountInfo();
+    // eslint-disable-next-line
+  }, []);
   return (
     <Fragment>
       <MetaTags>
@@ -31,26 +47,26 @@ const ProductTabLeft = ({ location, product }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
-        {product && (
+        {data && (
           <>
             {/* product description with image */}
             <ProductImageDescription
               spaceTopClass="pt-100"
               spaceBottomClass="pb-100"
-              product={product}
+              product={data}
               galleryType="leftThumb"
             />
 
             {/* product description tab */}
             <ProductDescriptionTab
               spaceBottomClass="pb-90"
-              productFullDesc={product?.fullDescription}
+              productFullDesc={data?.fullDescription}
             />
 
             {/* related product slider */}
             <RelatedProductSlider
               spaceBottomClass="pb-95"
-              category={product?.category[0]}
+              category={data.categoryID}
             />
           </>
         )}

@@ -10,6 +10,7 @@ import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab"
 import ProductImageDescription from "../../wrappers/product/ProductImageDescription";
 
 const ProductTabLeft = ({ location, product }) => {
+  console.log("🚀 ~ file: ProductTabLeft.js:13 ~ ProductTabLeft ~ product:", product)
   const { pathname } = location;
 
   return (
@@ -30,26 +31,29 @@ const ProductTabLeft = ({ location, product }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
+        {product && (
+          <>
+            {/* product description with image */}
+            <ProductImageDescription
+              spaceTopClass="pt-100"
+              spaceBottomClass="pb-100"
+              product={product}
+              galleryType="leftThumb"
+            />
 
-        {/* product description with image */}
-        <ProductImageDescription
-          spaceTopClass="pt-100"
-          spaceBottomClass="pb-100"
-          product={product}
-          galleryType="leftThumb"
-        />
+            {/* product description tab */}
+            <ProductDescriptionTab
+              spaceBottomClass="pb-90"
+              productFullDesc={product?.fullDescription}
+            />
 
-        {/* product description tab */}
-        <ProductDescriptionTab
-          spaceBottomClass="pb-90"
-          productFullDesc={product.fullDescription}
-        />
-
-        {/* related product slider */}
-        <RelatedProductSlider
-          spaceBottomClass="pb-95"
-          category={product.category[0]}
-        />
+            {/* related product slider */}
+            <RelatedProductSlider
+              spaceBottomClass="pb-95"
+              category={product?.category[0]}
+            />
+          </>
+        )}
       </LayoutOne>
     </Fragment>
   );
@@ -62,6 +66,9 @@ ProductTabLeft.propTypes = {
 
 const mapStateToProps = (state, ownProps) => {
   const itemId = ownProps.match.params.id;
+  console.log(
+    state.productData.products
+  );
   return {
     product: state.productData.products.filter(
       single => single.id === itemId

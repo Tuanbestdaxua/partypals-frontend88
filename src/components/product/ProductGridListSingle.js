@@ -5,6 +5,7 @@ import { useToasts } from "react-toast-notifications";
 import { getDiscountPrice } from "../../helpers/product";
 import Rating from "./sub-components/ProductRating";
 import ProductModal from "./ProductModal";
+import Axios from "axios";
 
 const ProductGridListSingle = ({
   product,
@@ -20,13 +21,29 @@ const ProductGridListSingle = ({
 }) => {
   const [modalShow, setModalShow] = useState(false);
   const { addToast } = useToasts();
-
+ const [productStock, setProductStock] = useState(false);
   const discountedPrice = getDiscountPrice(product.price, product.discount);
   const finalProductPrice = +(product.price * currency.currencyRate).toFixed(2);
   const finalDiscountedPrice = +(
     discountedPrice * currency.currencyRate
   ).toFixed(2);
-
+  React.useEffect(() => {
+    const getAccountInfo = async () => {
+      Axios({
+        method: "GET",
+        url: `https://partypal-vwog.onrender.com/api/variation/${product._id}`,
+      })
+        .then((res) => {
+  
+          setProductStock(res.data.variation[0].stock);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    };
+    getAccountInfo();
+    // eslint-disable-next-line
+  }, []);
   return (
     <Fragment>
       <div
@@ -92,7 +109,7 @@ const ProductGridListSingle = ({
                   <Link to={`${process.env.PUBLIC_URL}/product/${product._id}`}>
                     Select Option
                   </Link>
-                ) : product?.stock && product?.stock > 0 ? (
+                ) : productStock > 0 ? (
                   <button
                     onClick={() => addToCart(product, addToast)}
                     className={
@@ -202,13 +219,13 @@ const ProductGridListSingle = ({
                 ) : (
                   ""
                 )}
-                 {product.shortDescription ? (
+                {product.shortDescription ? (
                   <p>{product.shortDescription}</p>
                 ) : (
                   ""
-                )} 
+                )}
 
-                 <div className="shop-list-actions d-flex align-items-center">
+                <div className="shop-list-actions d-flex align-items-center">
                   <div className="shop-list-btn btn-hover">
                     {product.affiliateLink ? (
                       <a
@@ -225,7 +242,7 @@ const ProductGridListSingle = ({
                       >
                         Select Option
                       </Link>
-                    ) : product.stock && product.stock > 0 ? (
+                    ) : productStock > 0 ? (
                       <button
                         onClick={() => addToCart(product, addToast)}
                         className={
@@ -283,7 +300,7 @@ const ProductGridListSingle = ({
                       <i className="pe-7s-shuffle" />
                     </button>
                   </div>
-                </div> 
+                </div>
               </div>
             </div>
           </div>

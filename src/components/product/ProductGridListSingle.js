@@ -127,7 +127,7 @@ const ProductGridListSingle = ({
           <div className="product-content text-center">
             <h3>
               <Link to={process.env.PUBLIC_URL + "/product/" + product._id}>
-                {product.name}
+                {product.productName}
               </Link>
             </h3>
             {product.rating && product.rating > 0 ? (
@@ -202,13 +202,13 @@ const ProductGridListSingle = ({
                 ) : (
                   ""
                 )}
-                {/* {product.shortDescription ? (
+                 {product.shortDescription ? (
                   <p>{product.shortDescription}</p>
                 ) : (
                   ""
-                )} */}
+                )} 
 
-                {/* <div className="shop-list-actions d-flex align-items-center">
+                 <div className="shop-list-actions d-flex align-items-center">
                   <div className="shop-list-btn btn-hover">
                     {product.affiliateLink ? (
                       <a
@@ -283,7 +283,7 @@ const ProductGridListSingle = ({
                       <i className="pe-7s-shuffle" />
                     </button>
                   </div>
-                </div> */}
+                </div> 
               </div>
             </div>
           </div>

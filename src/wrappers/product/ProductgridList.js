@@ -19,7 +19,8 @@ const ProductGrid = ({
   sliderClassName,
   spaceBottomClass
 }) => {
-  const [data,setData]= useState(null);
+  const [data, setData]= useState(null);
+
   useEffect(async() => {
     const data = await axiosClient.get("product")
     setData(data);

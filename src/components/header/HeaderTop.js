@@ -28,7 +28,7 @@ const HeaderTop = ({
         <p>
           Free delivery on order over{" "}
           <span>
-            {(200 * currency.currencyRate).toFixed(2) + " VNĐ"}
+            {(200 * currency.currencyRate).toFixed(2) +"K" +" VNĐ"}
           </span>
         </p>
       </div>

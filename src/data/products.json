@@ -1,19 +1,1897 @@
 [
   {
-    "id": "64b3f4e438b19c0032c0b1d2",
-    "sku": "asdf123",
-    "name": "Ghế nhựa chân gỗ",
-    "price": 12.45,
+    "id": "17",
+    "sku": "qe211",
+    "name": "Loa Bluetooth Marshall Willen",
+    "price": 100.50,
+    "discount": 10,
+    "new": true,
+    "rating": 4,
+    "saleCount": 25,
+    "category": [
+      "Loa"
+    ],
+    "tag": [
+      "Loa"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/a/marshall_willen_7.png",
+      "https://dienthoaigiakho.vn/_next/image?url=https%3A%2F%2Fcdn.dienthoaigiakho.vn%2Fphotos%2F1658820773213-willen-black-brass-01.jpg&w=3840&q=75",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/a/marshall_willen_5.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/a/marshall_willen_6.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/0/2/02-usp-desktop.jpg"
+    ],
+    "shortDescription": " Thương hiệu Marshall nổi tiếng với việc sản xuất các sản phẩm âm thanh chất lượng cao, đặc biệt là các ampli và loa guitar. Loa Bluetooth Marshall có thể là một dòng sản phẩm loa không dây với tính năng kết nối Bluetooth cho phép người dùng phát nhạc từ điện thoại thông minh, máy tính bảng hoặc bất kỳ thiết bị Bluetooth nào khác",
+    "fullDescription": "Loa bluetooth Marshall Willen – Thiết kế sang trọng, âm thanh vượt trội ,Tương tự như các sản phẩm trước đó, loa Marshall Willen sở hữu một thiết kế sang trọng với âm thanh chất lượng cao, hứa hẹn mang lại trải nghiệm ấn tượng cho người dùng.Âm thanh chất lượng, pin dùng nhiều giờ Chất lượng âm thanh trên các sản phẩm Marshall luôn được người tiêu dùng đánh giá cao và Marshall này cũng không ngoại lệ. Với công nghệ âm thanh stereo cùng khả năng điều chỉnh, Marshall Willen mang lại những phút giây đắm chìm trong âm nhạc."
+  },
+  {
+    "id": "18",
+    "sku": "qe212",
+    "name": "Loa Bluetooth Marshall Emberton",
+    "price": 250.50,
+    "discount": 19,
+    "new": true,
+    "rating": 5,
+    "saleCount": 30,
+    "category": [
+      "Loa"
+    ],
+    "tag": [
+      "Loa"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/a/marshall_emberton_2.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/a/marshall_emberton_1.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/a/marshall_emberton_3.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/a/marshall_emberton_4.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/a/marshall_emberton_5.png"
+    ],
+    "shortDescription": " Thương hiệu Marshall nổi tiếng với việc sản xuất các sản phẩm âm thanh chất lượng cao, đặc biệt là các ampli và loa guitar. Loa Bluetooth Marshall có thể là một dòng sản phẩm loa không dây với tính năng kết nối Bluetooth cho phép người dùng phát nhạc từ điện thoại thông minh, máy tính bảng hoặc bất kỳ thiết bị Bluetooth nào khác",
+    "fullDescription": "Các loa Bluetooth Marshall thường có thiết kế bền vững và độc đáo, lấy cảm hứng từ các ampli guitar của hãng. Chất lượng âm thanh của loa Bluetooth Marshall thường rất xuất sắc, với âm bass mạnh mẽ và âm trầm sâu. Một số phiên bản có thể hỗ trợ tính năng kết nối không dây đa phòng, cho phép nối nhiều loa cùng một lúc để tăng cường âm thanh và phủ sóng âm nhạc trong nhiều phòng.Nếu Marshall Willen là một dòng sản phẩm mới hơn hoặc có sự thay đổi so với thông tin hiện có, tôi không thể cung cấp thông tin chi tiết về nó. Bạn có thể tìm hiểu thêm thông tin từ các nguồn tin tức, trang web mua sắm trực tuyến hoặc trang web chính thức của hãng Marshall để biết thêm thông tin về sản phẩm này"
+  },
+  {
+    "id": "40",
+    "sku": "qe213",
+    "name": "Loa bluetooth Marshall Stockwell 2",
+    "price": 350.50,
+    "discount": 23,
+    "new": true,
+    "rating": 5,
+    "saleCount": 40,
+    "category": [
+      "Loa"
+    ],
+    "tag": [
+      "Loa"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/l/o/loa-di-dong-marshall-stockwell-ii-8_2_3_1.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/l/o/loa-di-dong-marshall-stockwell-ii-9_2_3_1.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/l/o/loa-di-dong-marshall-stockwell-ii-2_3_3_1.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/l/o/loa-di-dong-marshall-stockwell-ii-1_2_3_1.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/l/o/loa-di-dong-marshall-stockwell-ii-3_2_3_1.jpg"
+    ],
+    "shortDescription": " Loa bluetooth Marshall Stockwell II - mang lại trải nghiệm âm thanh mọi nơi cho bạn . Đối với một người yêu âm nhạc thì chiếc loa bluetooth cầm tay chính hãng chiếm một vai trò quan trọng, không thể thiếu trong cuộc sống. Và chiếc loa bluetooth Marshall Stockwell II chính là một người bạn đồng hành lý tưởng.",
+    "fullDescription": "Marshall - thương hiệu là nổi tiếng đến từ Anh quốc . Được thành lập vào năm 1960 tại Anh quốc và cho đến những năm 1980 và 1990, Marshall cho ra đời nhiều sản phẩm âm thanh chất lượng cao với các dòng loa đáng chú ý như JCM900, dòng 6100LE hay 6100LM. Cho đến thời điểm hiện tại, Marshall vẫn tiếp tục tập trung mạnh vào việc thiết kế các hệ thống audio classic, những dòng loa đậm chất rock, dòng loa amplifier hay một số dòng chuyên bass."
+  },
+  {
+    "id": "19",
+    "sku": "qe214",
+    "name": "Loa Bluetooth Marshall Woburn III",
+    "price": 700.50,
+    "discount": 25,
+    "new": true,
+    "rating": 5,
+    "saleCount": 34,
+    "category": [
+      "Loa"
+    ],
+    "tag": [
+      "Loa"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_99__1_6.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_100__1_4.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_-_2022-12-30t085735.788.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_-_2022-12-30t085740.178.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/a/marshall_woburn_iii_1.png"
+    ],
+    "shortDescription": " Loa Marshall Woburn 3 là mẫu loa cao cấp với thiết kế sang nhã cùng công nghệ âm thanh vượt trội. Loa với âm trường rộng cùng hệ thống điều khiển được thiết kế lại nhờ đó người dùng có thể kiểm soát nhiều hơn. ",
+    "fullDescription": "Loa Marshall Woburn 3 - Âm thanh với độ chi tiết cao . Loa Bluetooth Marshall Woburn 3 nằm trong phân khúc thiết bị âm thanh cao cấp nhất ở thời điểm hiện tại. Dòng sản phẩm Marshall này thu hút được sự chú ý của người dùng nhờ thiết kế sang trọng, hiện đại cùng chất lượng âm thanh có mức độ chi tiết cao"
+  },
+  {
+    "id": "20",
+    "sku": "qe215",
+    "name": "Loa Bluetooth JBL Charge 4",
+    "price": 230.50,
+    "discount": 30,
+    "new": true,
+    "rating": 5,
+    "saleCount": 32,
+    "category": [
+      "Loa"
+    ],
+    "tag": [
+      "Loa"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/j/b/jbl_charge4_front_midnight_black_1605x1605px.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/6/1/61tlmjhyfdl._sl1000_.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/6/1/61jpckwyryl._sl1000_.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/6/1/61pmvjdiojl._sl1000_.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/j/b/jbl_charge_4_2.png"
+    ],
+    "shortDescription": " Loa JBL Charge 4 – Chống nước IPX7, âm thanh sống động . Loa JBL Charge 4 là chiếc loa bluetooth thế hệ thứ tư thuộc dòng JBL Charge. Bạn sẽ có một bữa tiệc BBQ ngoài trời, hồ bơi hay bãi biển, ngập tràn âm thanh sống động, thỏa sức chơi đùa cùng với bạn bè. ",
+    "fullDescription": "JBL Charge 4 - Thiết kế loa Charge 4 JBL nhỏ gọn, tiện lợi . Các sản phẩm loa của JBL đều có thiết kế dựng đứng được hoặc nằm ngang cực kỳ tiện dụng. Ở bất kỳ nơi nào, loa Charge 4 đều có thể đứng vững. Bên cạnh đó, với thiết kế hình trụ, người dùng dễ dàng cầm loa thẳng đứng. Hai đầu của loa cũng được bọc vải dệt đóng vai trò làm nơi tiếp xúc với nền để loa có thể đứng được và cũng bảo vệ được các phím điều khiển. Giống với phiên bản thứ ba, phiên bản lần này cũng tạo ra nhiều phiên bản màu sắc đa dạng như: xanh, đen, đỏ, xám…"
+  },
+  {
+    "id": "21",
+    "sku": "qe216",
+    "name": "Loa JBL Partybox Encore 2 mic",
+    "price": 600.50,
+    "discount": 20,
+    "new": true,
+    "rating": 5,
+    "saleCount": 35,
+    "category": [
+      "Loa"
+    ],
+    "tag": [
+      "Loa"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/1/_/1_copy_1_1.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/u/n/untitled-1_copy_19.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/u/n/untitled-2_copy_15_3.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/_/2_jbl_partybox_encore_front_33370_x2.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/j/b/jbl_partybox_encore_water_2_33415_x2.jpg"
+    ],
+    "shortDescription": "Loa JBL PartyBox Encore 2 mic - Âm thanh bùng nổ, ánh sáng mãn nhãn.Loa JBL PartyBox Encore 2 mic không chỉ còn đơn giản là một dòng loa Bluetooth di động mà nó còn có thêm trang bị mic giúp bạn thể hiện giọng hát của mình mọi lúc mọi nơi. Hãy cùng CellphoneS tìm hiểu nhiều hơn các tính năng khác của V nhé! ",
+    "fullDescription": "Loa JBL PartyBox Encore 2 mic mang trong mình một hệ thống âm thanh độc quyền. Điều đó thể hiện rõ ở chất âm cao rõ nét khi được sở hữu công suất 100W cực mạnh mẽ.Sản phẩm đến từ nhà JBL sở hữu công nghệ âm thanh JBL Orginal Sound ấn tượng. Công nghệ này có khả năng tái tạo âm thanh chính xác, các âm thanh trầm bổng chi tiết giúp cho các bài hát trở nên sống động. Nhờ vậy, không khí bữa tiệc như được “cháy” hơn, bùng nổ hơn và lan tỏa hơn đến tất cả người tham dự."
+  },
+  {
+    "id": "52",
+    "sku": "qe217",
+    "name": "Loa Bluetooth JBL Pulse 5",
+    "price": 400.50,
+    "discount": 24,
+    "new": true,
+    "rating": 4,
+    "saleCount": 35,
+    "category": [
+      "Loa"
+    ],
+    "tag": [
+      "Loa"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/1/_/1_jbl_pulse_5_hero_34364_x2_1.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/_/2_jbl_pulse_5_3_4_left_34343_x2_1.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/j/b/jbl_pulse_5_top_down_x3_1.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/5/_/5_jbl_pulse_5_back__1_x3_1.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/j/b/jbl_pulse_5_06_1.png"
+    ],
+    "shortDescription": "Loa JBL Pulse 5 - Thiết kế nổi bật cùng công nghệ âm thanh sống động . Loa Bluetooth Pulse 5 là một sản phẩm mới nhất được thêm vào bộ sưu tập loa Pulse của thương hiệu JBL. Thiết bị loa bluetooth mới này nổi bật với chất âm sống động, thiết kế linh hoạt, cùng các hiệu ứng ánh sáng bắt mắt. Khi sở hữu chiếc loa này trong tay, chắc chắn bạn sẽ có được những buổi tiệc đầy vui nhộn và tuyệt vời ",
+    "fullDescription": "Thiết kế nổi bật với hiệu ứng ánh sáng đầy sống động.Loa Pulse 5 của JBL sở hữu thiết kế gọn nhẹ và linh hoạt. Ngoài ra thiết bị còn đi kèm với một dây đeo giúp bạn dễ dàng treo vào balo, túi xách,... và mang đến bất kỳ đâu. Bạn sẽ thấy bất ngờ khi bên trong loa được trang bị một hệ thống ánh sáng bao gồm các hiệu ứng vô cùng đẹp mắt, có thể thay đổi theo từng giai điệu nhạc. "
+  },
+  {
+    "id": "22",
+    "sku": "qe217",
+    "name": "Loa Bluetooth JBL Pulse 5",
+    "price": 400.50,
+    "discount": 24,
+    "new": true,
+    "rating": 4,
+    "saleCount": 35,
+    "category": [
+      "Loa"
+    ],
+    "tag": [
+      "Loa"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/1/_/1_jbl_pulse_5_hero_34364_x2_1.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/_/2_jbl_pulse_5_3_4_left_34343_x2_1.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/j/b/jbl_pulse_5_top_down_x3_1.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/5/_/5_jbl_pulse_5_back__1_x3_1.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/j/b/jbl_pulse_5_06_1.png"
+    ],
+    "shortDescription": "Loa JBL Pulse 5 - Thiết kế nổi bật cùng công nghệ âm thanh sống động . Loa Bluetooth Pulse 5 là một sản phẩm mới nhất được thêm vào bộ sưu tập loa Pulse của thương hiệu JBL. Thiết bị loa bluetooth mới này nổi bật với chất âm sống động, thiết kế linh hoạt, cùng các hiệu ứng ánh sáng bắt mắt. Khi sở hữu chiếc loa này trong tay, chắc chắn bạn sẽ có được những buổi tiệc đầy vui nhộn và tuyệt vời ",
+    "fullDescription": "Thiết kế nổi bật với hiệu ứng ánh sáng đầy sống động.Loa Pulse 5 của JBL sở hữu thiết kế gọn nhẹ và linh hoạt. Ngoài ra thiết bị còn đi kèm với một dây đeo giúp bạn dễ dàng treo vào balo, túi xách,... và mang đến bất kỳ đâu. Bạn sẽ thấy bất ngờ khi bên trong loa được trang bị một hệ thống ánh sáng bao gồm các hiệu ứng vô cùng đẹp mắt, có thể thay đổi theo từng giai điệu nhạc. "
+  },
+  {
+    "id": "23",
+    "sku": "qe218",
+    "name": "Loa Bluetooth JBL Partybox 710",
+    "price": 850.50,
+    "discount": 22,
+    "new": true,
+    "rating": 5,
+    "saleCount": 23,
+    "category": [
+      "Loa"
+    ],
+    "tag": [
+      "Loa"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/2/22_2_14.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/3/23_2_10.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/5/25_1_28.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/4/24_43.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/7/27_1_25.jpg"
+    ],
+    "shortDescription": "Loa Bluetooth JBL PartyBox 710 - Kháng nước tốt . Loa Bluetooth JBL PartyBox 710 sở hữu thiết kế ấn tượng nhờ kết hợp đèn LED và đèn nháy cực đẹp. Cùng với đó là chất lượng âm thanh mạnh mẽ với công suất 800W cho âm trầm sâu hơn và còn nhiều nét nổi trội khác ",
+    "fullDescription": "Thiết kế tinh tế từ chất liệu nhựa cao cấp, kháng nước và chịu va đập tốt .Loa Bluetooth JBL PartyBox 710 sở hữu nhiều điểm nổi bật từ mẫu loa bluetooth tiền nhiệm PartyBox 1000. Cụ thể, loa có thiết kế nhỏ gọn, với các chi tiết được hoàn thiện một cách tinh tế với tay cầm chắc chắn và bánh xe dễ dàng sử dụng. "
+  },
+  {
+    "id": "24",
+    "sku": "qe219",
+    "name": "Máy chiếu Xiaomi Mi Smart Máy Chiếu 2",
+    "price": 700.50,
+    "discount": 24,
+    "new": true,
+    "rating": 5,
+    "saleCount": 26,
+    "category": [
+      "Máy Chiếu"
+    ],
+    "tag": [
+      "Máy Chiếu"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_3__3_6.png",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/1/6/1632154204_697_xiaomi-presents-its-new-mi-smart-Máy Chiếu-2-portable-and.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/5/5/554135d56fa5e4cb644d89df74609ecd_1_.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/i/mi-smart-Máy Chiếu-2-pro-plocha-e1626854643836.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/6/e/6e8d92aee2504b3dd934bfa6b169a044.jpg"
+    ],
+    "shortDescription": "Máy chiếu Xiaomi Mi Smart Máy Chiếu 2 – Máy chiếu mini cho nhu cầu giải trí . Là một sản phẩm smarthome đến từ Xiaomi, máy chiếu mini Xiaomi Mi Smart Máy Chiếu 2 với cấu hình mạnh cùng nhiều công nghệ hiện đại hứa hẹn mang lại trải nghiệm giải trí đa phương tiện chất lượng đến với người dùng. ",
+    "fullDescription": "Thiết kế nhỏ gọn, dễ mang theo và sắp xếp .  Xiaomi Máy Chiếu 2 sở hữu một thiết kế bên ngoài nhỏ gọn cùng trọng lượng nhẹ. Với thiết kế máy chiếu mini Xiaomi thông minh, người dùng không chỉ dễ dàng mang theo mà còn có thể lắp đặt trong nhiều không gian phòng khác nhau, kể cả những không gian nhỏ mà không chiếm quá nhiều diện tích không gian. "
+  },
+  {
+    "id": "25",
+    "sku": "qe220",
+    "name": "Máy chiếu Beecube Xtreme",
+    "price": 350.50,
+    "discount": 32,
+    "new": true,
+    "rating": 5,
+    "saleCount": 27,
+    "category": [
+      "Máy Chiếu"
+    ],
+    "tag": [
+      "Máy Chiếu"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/v/_/v_4.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/1/_/1_324_3.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/2/_/2_311_2.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/4/_/4_255.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/3/_/3_297_2.jpg"
+    ],
+    "shortDescription": "Máy chiếu Beecube Xtreme - phiên bản mới hoàn toàn với thiết kế đơn giản nhưng vô cùng sang trọng. Với công nghệ hiện đại, tuổi thọ bền bỉ cùng với chất lượng hình ảnh sắc nét, máy chiếu mini Beecube được nhiều bạn trẻ yêu thích và lựa chọn. ",
+    "fullDescription": "Thiết kế nhỏ gọn, tiện ích .Máy chiếu xtreme được thiết kế theo phong cách tối giản, có dạng hình trụ đứng, kích thước nhỏ gọn cùng với các góc cạnh bo tròn vô cùng ấn tượng. Máy mang cho mình vẻ ngoài bắt mắt với gam màu trắng tinh khiết tạo nên sự sang trọng riêng.Cấu hình khỏe, chất lượng hiển thị cao .Bên cạnh thiết kế mang nét cổ điển, máy chiếu Beecube Xtreme còn sở hữu cấu hình khá mạnh mẽ nhờ được trang bị RAM 2GB và 32GB bộ nhớ. Thiết bị sở hữu công suất lên đến 120W cùng độ sáng lên tới 7000 LUMENS chất lượng hình ảnh trở nên sống động dù ở môi trường ban ngày. "
+  },
+  {
+    "id": "26",
+    "sku": "qe212",
+    "name": "Máy chiếu mini Wanbo T6R Max",
+    "price": 550.50,
+    "discount": 27,
+    "new": true,
+    "rating": 5,
+    "saleCount": 27,
+    "category": [
+      "Máy Chiếu"
+    ],
+    "tag": [
+      "Máy Chiếu"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/w/a/wanbo-t6r-max-full-hd-den-4.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/w/a/wanbo-t6r-max-full-hd-den-3.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/w/a/wanbo-t6r-max-full-hd-den-5.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/w/a/wanbo-t6r-max-full-hd-den-2.jpg",
+      "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/w/a/wanbo-t6r-max-full-hd-den-7.jpg"
+    ],
+    "shortDescription": "Máy chiếu mini Wanbo T6R Max FullHD là một món phụ kiện tuyệt vời cho những giờ phút giải trí tại nhà hay những buổi thuyết trình với khả năng trình chiếu sắc nét trong một tầm giá cực kỳ hấp dẫn.",
+    "fullDescription": "Thiết kế gọn nhẹ, độc đáo với màu đen tinh tế . Máy chiếu Wanbo T6R Max sở hữu thiết kế tinh tế, hiện đại cùng với kích thước nhỏ gọn so với các dòng máy chiếu truyền thống. Máy có tổng thể mang tông màu đen nhám cá tính nhưng cũng không kém phần sang trọng, tinh tế.Mặc dù có kiểu dáng nhỏ gọn nhưng nhà sản xuất vẫn chú trọng đến nhiều chi tiết như bộ phận tản nhiệt có khoảng hở lớn nhằm giúp máy có thể tản nhiệt tốt, kéo dài tuổi thọ cho thiết bị. Nút kim cương cứng cáp, tay cầm bằng da chắc chắn,…mang đến sự tiện dụng cho người dùng. "
+  },
+  {
+    "id": "27",
+    "sku": "lamp123",
+    "name": "Đèn bàn cảm ứng",
+    "price": 300.000,
+    "discount": 15,
+    "offerEnd": "November 15, 2023 18:30:00",
+    "new": true,
+    "rating": 4.5,
+    "saleCount": 22,
+    "category": [
+      "Đèn"
+    ],
+    "tag": [
+      "Đèn"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://bizweb.dktcdn.net/thumb/grande/100/089/254/products/lsb7-600x600.jpg?v=1541055267833",
+      "http://kawasan.com.vn/image/data/BONG%20LED%20/LSB7W/z1023056931334_ee1ac40fef3b3beea68f27f2a57dbcda.jpg",
+      "http://kawasan.com.vn/image/data/BONG%20LED%20/LSB7W/z1023056925513_b1bf749278ef28a7b9fb272c3c1aa8b5.jpg",
+      "http://kawasan.com.vn/image/data/BONG%20LED%20/LSB7W/z1023056922596_271406c6a08e29d209e49e3e28c52c8f.jpg",
+      "http://kawasan.com.vn/image/data/BONG%20LED%20/LSB7W/z1023059023971_6a086bfd99c32906d279590e421170f0.jpg"
+    ],
+    "shortDescription": "Đèn bàn cảm ứng với thiết kế hiện đại và sang trọng, dễ dàng điều chỉnh độ sáng phù hợp cho các buổi tổ chức sự kiện.",
+    "fullDescription": "Đèn bàn cảm ứng với thiết kế hiện đại và sang trọng, dễ dàng điều chỉnh độ sáng phù hợp cho các buổi tổ chức sự kiện. Đèn có 3 màu: bạc, vàng, và đen. Sử dụng công nghệ cảm ứng, bạn có thể điều chỉnh độ sáng bằng cách chạm vào thân đèn. Đèn cũng có chức năng tự tắt khi không sử dụng, tiết kiệm năng lượng. Hãy sắm ngay cho sự kiện của bạn với đèn bàn cảm ứng này."
+  },
+  {
+    "id": "28",
+    "sku": "lamp456",
+    "name": "Đèn trang trí LED",
+    "price": 350.000,
+    "discount": 5,
+    "offerEnd": "December 10, 2023 20:00:00",
+    "new": false,
+    "rating": 4.2,
+    "saleCount": 38,
+    "category": [
+      "Đèn"
+    ],
+    "tag": [
+      "Đèn"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://cdn.chiaki.vn/unsafe/0x960/left/top/smart/filters:quality(75)/https://chiaki.vn/upload/product/2021/11/luoi-den-led-trang-tri-giang-sinh-tiec-ngoai-troi-du-mau-61a09a010d7a1-26112021152537.jpg",
+      "https://cdn.chiaki.vn/unsafe/0x960/left/top/smart/filters:quality(75)/https://chiaki.vn/upload/product/2021/11/luoi-den-led-trang-tri-giang-sinh-tiec-ngoai-troi-du-mau-61a09a0157791-26112021152537.jpg",
+      "https://cdn.chiaki.vn/unsafe/0x960/left/top/smart/filters:quality(75)/https://chiaki.vn/upload/product/2021/11/luoi-den-led-trang-tri-giang-sinh-tiec-ngoai-troi-du-mau-61a09a0112ca6-26112021152537.jpg",
+      "https://cdn.chiaki.vn/unsafe/0x960/left/top/smart/filters:quality(75)/https://chiaki.vn/upload/product/2021/11/luoi-den-led-trang-tri-giang-sinh-tiec-ngoai-troi-du-mau-61a09a0117a41-26112021152537.jpg",
+      "https://cdn.chiaki.vn/unsafe/0x960/left/top/smart/filters:quality(75)/https://chiaki.vn/upload/product/2021/11/luoi-den-led-trang-tri-giang-sinh-tiec-ngoai-troi-du-mau-61a09a00e08da-26112021152536.jpg"
+    ],
+    "shortDescription": "Đèn trang trí LED với nhiều màu sắc sặc sỡ, phù hợp cho các sự kiện và bữa tiệc.",
+    "fullDescription": "Đèn trang trí LED với nhiều màu sắc sặc sỡ, phù hợp cho các sự kiện và bữa tiệc. Bạn có thể thay đổi màu sắc bằng cách sử dụng điều khiển từ xa. Đèn LED tiết kiệm điện năng và có tuổi thọ cao. Sử dụng trong không gian trong nhà hoặc ngoài trời đều thích hợp. Hãy tạo không gian ấm cúng và lung linh cho sự kiện của bạn với đèn trang trí LED này."
+  },
+  {
+    "id": "29",
+    "sku": "lamp101",
+    "name": "Đèn năng lượng mặt trời",
+    "price": 600.000,
+    "discount": 12,
+    "offerEnd": "February 28, 2024 16:20:00",
+    "new": true,
+    "rating": 4.7,
+    "saleCount": 17,
+    "category": [
+      "Đèn"
+    ],
+    "tag": [
+      "Đèn"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://vienthongdangkhoi.com/upload/productpicture/den-pha-nang-luong-mat-troi-60w.jpg",
+      "https://vienthongdangkhoi.com/upload/productpicture/den-pha-led-nang-luong-mat-troi-60w.png",
+      "https://vienthongdangkhoi.com/upload/productpicture/den-pha-nang-luong-mat-troi-60w-1.jpg",
+      "https://vienthongdangkhoi.com/upload/SPDienmattroi/den-led-nang-luong-mat-troi-60w.jpg",
+      "https://vienthongdangkhoi.com/upload/images/dien%20mat%20troi/fl60/den-led-nang-luong-mat-troi-60w-4.jpg"
+    ],
+    "shortDescription": "Đèn năng lượng mặt trời hoạt động bằng năng lượng tái tạo, lý tưởng cho các sự kiện ngoài trời.",
+    "fullDescription": "Đèn năng lượng mặt trời hoạt động bằng năng lượng tái tạo, lý tưởng cho các sự kiện ngoài trời. Đèn được tích hợp pin năng lượng mặt trời, giúp tiết kiệm điện năng và thân thiện với môi trường. Bạn có thể dùng đèn để chiếu sáng các không gian ngoài trời, sân vườn, hoặc sử dụng trong các buổi liên hoan, tiệc tùng ngoài trời. Hãy tận dụng năng lượng mặt trời để tạo không gian ấm cúng và lãng mạn cho sự kiện của bạn."
+  },
+  {
+    "id": "30",
+    "sku": "lamp202",
+    "name": "Đèn cầm tay di động",
+    "price": 200.000,
+    "discount": 8,
+    "offerEnd": "March 15, 2024 10:00:00",
+    "new": false,
+    "rating": 4.4,
+    "saleCount": 32,
+    "category": [
+      "Đèn"
+    ],
+    "tag": [
+      "Đèn"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://salt.tikicdn.com/cache/750x750/ts/product/d6/23/13/4a2a7ebcb8013039f715207be49d756d.jpg.webp",
+      "https://salt.tikicdn.com/cache/750x750/ts/product/7e/5f/53/c4ef7a87405329efface01d378537f45.jpg.webp",
+      "https://salt.tikicdn.com/cache/750x750/ts/product/f2/2c/ab/a692d81394380223159661ed5348385f.jpg.webp",
+      "https://salt.tikicdn.com/ts/tmp/37/67/6c/b0e9b3339ca72fef014f1a301721ab2a.PNG",
+      "https://salt.tikicdn.com/ts/tmp/c1/2c/2c/82d72a082a5db80cfeb18e924216438c.PNG"
+    ],
+    "shortDescription": "Đèn cầm tay di động nhỏ gọn và tiện dụng, phù hợp cho các hoạt động ngoài trời và cần đèn khẩn cấp.",
+    "fullDescription": "Đèn cầm tay di động nhỏ gọn và tiện dụng, phù hợp cho các hoạt động ngoài trời và cần đèn khẩn cấp. Đèn được trang bị bóng LED sáng và tiết kiệm năng lượng, cho ánh sáng mạnh mẽ và bền bỉ. Có thể sử dụng để chiếu sáng trong điều kiện thiếu ánh sáng, hoặc mang theo khi đi cắm trại, leo núi, hay các hoạt động ngoài trời khác. Đèn cầm tay di động là một vật dụng không thể thiếu cho bất kỳ buổi tổ chức sự kiện nào."
+  },
+  {
+    "id": "31",
+    "sku": "lamp789",
+    "name": "Đèn treo trần pha lê",
+    "price": 450.000,
+    "discount": 20,
+    "offerEnd": "January 20, 2024 14:45:00",
+    "new": true,
+    "rating": 4.9,
+    "saleCount": 10,
+    "category": [
+      "Đèn"
+    ],
+    "tag": [
+      "Đèn"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://dentrangtrivirgo.com/wp-content/uploads/2023/01/3577-1.jpg",
+      "https://dentrangtrivirgo.com/wp-content/uploads/2023/01/3577-5.jpg",
+      "https://dentrangtrivirgo.com/wp-content/uploads/2023/01/3577-8.jpg",
+      "https://dentrangtrivirgo.com/wp-content/uploads/2023/01/3577-6.jpg",
+      "https://dentrangtrivirgo.com/wp-content/uploads/2023/01/3577-4.jpg"
+    ],
+    "shortDescription": "Đèn treo trần pha lê sang trọng và lộng lẫy, làm nổi bật không gian tổ chức sự kiện của bạn.",
+    "fullDescription": "Đèn treo trần pha lê sang trọng và lộng lẫy, làm nổi bật không gian tổ chức sự kiện của bạn. Đèn được làm từ chất liệu pha lê cao cấp, tạo điểm nhấn ấn tượng cho không gian. Với thiết kế chandelier độc đáo, đèn treo trần này thích hợp cho các sự kiện, tiệc cưới, buổi tiệc cao cấp, hay bất kỳ dịp kỷ niệm quan trọng nào. Pha lê trong suốt chiếu sáng lung linh và tạo ra các hiệu ứng ánh sáng tuyệt đẹp. Đèn treo trần pha lê sẽ mang đến không gian hoàng gia và sang trọng cho bữa tiệc của bạn."
+  },
+  {
+    "id": "32",
+    "sku": "table123",
+    "name": "Khăn trải bàn họa tiết hoa",
+    "price": 300,
+    "discount": 10,
+    "offerEnd": "September 30, 2024 15:00:00",
+    "new": true,
+    "rating": 4.8,
+    "saleCount": 5,
+    "category": [
+      "Khăn Trải Bàn"
+    ],
+    "tag": [
+      "Khăn Trải Bàn"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://bizweb.dktcdn.net/100/277/395/products/z3488452554824-6606e69b177227e140be733b74527cb8.jpg?v=1655694244247",
+      "https://bizweb.dktcdn.net/100/277/395/products/rs4.jpg?v=1627359050790",
+      "https://bizweb.dktcdn.net/100/277/395/products/rs2-e6439b17-37f6-47b4-aa40-73233f186db4.jpg?v=1627359050790",
+      "https://bizweb.dktcdn.net/100/277/395/products/rs1.jpg?v=1627359050790",
+      "https://bizweb.dktcdn.net/100/277/395/files/img-4912.jpg?v=1585297511180"
+    ],
+    "shortDescription": "Khăn trải bàn họa tiết hoa, tạo điểm nhấn tươi sáng cho bữa tiệc của bạn.",
+    "fullDescription": "Khăn trải bàn họa tiết hoa, tạo điểm nhấn tươi sáng cho bữa tiệc của bạn. Khăn trải bàn có nhiều màu sắc và họa tiết hoa tươi sáng, phù hợp cho các sự kiện, tiệc cưới, sinh nhật hay bữa tiệc gia đình. Chất liệu vải mềm mại và bền, dễ dàng giặt và sử dụng lại. Hãy tạo không gian ấm cúng và lung linh cho sự kiện của bạn với khăn trải bàn họa tiết hoa này."
+  },
+  {
+    "id": "35",
+    "sku": "table101",
+    "name": "Khăn trải bàn sọc",
+    "price": 280,
+    "discount": 8,
+    "offerEnd": "January 31, 2025 14:00:00",
+    "new": true,
+    "rating": 4.7,
+    "saleCount": 6,
+    "category": [
+      "Khăn Trải Bàn"
+    ],
+    "tag": [
+      "Khăn Trải Bàn"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://bizweb.dktcdn.net/100/275/164/products/9-jpg-87336c4c-bf38-42ae-a815-25c198c40309.jpg?v=1545033545183",
+      "https://bizweb.dktcdn.net/100/275/164/products/7-jpg-a8328d51-0885-4b54-8918-77a8fff20add.jpg?v=1545033545700",
+      "https://bizweb.dktcdn.net/100/275/164/products/8-jpg-ac2e0600-cae1-4f11-b2e1-d53f2a4f475a.jpg?v=1545033546220",
+      "https://bizweb.dktcdn.net/100/275/164/products/12-jpg-317742f8-f3be-4609-97db-2455df6b7d37.jpg?v=1545033546670",
+      "https://bizweb.dktcdn.net/100/275/164/files/11-jpg-eb402667-4fba-4476-b6a0-86ed36a34972.jpg?v=1545033477374"
+    ],
+    "shortDescription": "Khăn trải bàn sọc với chất liệu lụa thanh lịch, tạo điểm nhấn dễ thương cho bữa tiệc của bạn.",
+    "fullDescription": "Khăn trải bàn sọc với chất liệu lụa thanh lịch, tạo điểm nhấn dễ thương cho bữa tiệc của bạn. Khăn trải bàn có mẫu sọc tinh tế, kết hợp với chất liệu lụa mềm mại và mịn, tạo cảm giác dễ chịu và ấm cúng. Màu sắc đa dạng và thanh lịch, phù hợp cho các buổi tiệc, bữa tiệc gia đình hay tiệc sinh nhật. Hãy thêm vẻ đáng yêu và dễ thương cho sự kiện của bạn với khăn trải bàn sọc chất liệu lụa này."
+  },
+  {
+    "id": "36",
+    "sku": "table202",
+    "name": "Khăn trải bàn ren thêu hoa",
+    "price": 320,
+    "discount": 12,
+    "offerEnd": "February 28, 2025 10:30:00",
+    "new": false,
+    "rating": 4.5,
+    "saleCount": 10,
+    "category": [
+      "Khăn Trải Bàn"
+    ],
+    "tag": [
+      "Khăn Trải Bàn"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://salt.tikicdn.com/ts/tmp/02/ba/fe/b7dafe8866b56a05e70b4571641464ef.jpg",
+      "https://salt.tikicdn.com/ts/tmp/d8/91/37/2eeefa6ad3b35af02b59079c05b8e16b.jpg",
+      "https://salt.tikicdn.com/ts/tmp/03/7d/31/38962f5ab5c7a5d63ff3dec1b2a10337.jpg",
+      "https://salt.tikicdn.com/ts/tmp/cd/57/9f/977b38075e3ebfb9a231ffa1b4aa2cf8.jpg",
+      "https://salt.tikicdn.com/ts/tmp/3a/ea/11/304ab605cbbceaf6f8777f26396d5e16.jpg"
+    ],
+    "shortDescription": "Khăn trải bàn ren thêu hoa, tạo điểm nhấn tinh tế cho không gian tổ chức sự kiện.",
+    "fullDescription": "Khăn trải bàn ren thêu hoa, tạo điểm nhấn tinh tế cho không gian tổ chức sự kiện. Khăn trải bàn có ren thêu hoa văn tinh tế, phù hợp cho các sự kiện đặc biệt, tiệc cưới hay các buổi tiệc sang trọng. Chất liệu vải chắc chắn và bền, dễ dàng giặt và tái sử dụng. Hãy thêm vẻ thanh lịch và tinh tế cho sự kiện của bạn với khăn trải bàn ren thêu hoa này."
+  },
+  {
+    "id": "33",
+    "sku": "table456",
+    "name": "Khăn trải bàn màu đơn",
+    "price": 350,
+    "discount": 5,
+    "offerEnd": "October 31, 2024 12:00:00",
+    "new": false,
+    "rating": 4.6,
+    "saleCount": 8,
+    "category": [
+      "Khăn Trải Bàn"
+    ],
+    "tag": [
+      "Khăn Trải Bàn"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://banner2.cleanpng.com/20190626/ojv/kisspng-tablecloth-linens-textile-rectangle-5d13536a758ab8.4051268815615476264815.jpg",
+      "https://banner2.cleanpng.com/20180529/pkz/kisspng-tablecloth-rectangle-throw-5b0d2e57aff0c5.3190413515275904877207.jpg",
+      "https://banner2.cleanpng.com/20191128/fhq/transparent-yellow-tablecloth-rectangle-linens-table-5ddf70ec972493.9732109315749245246191.jpg",
+      "https://casanha-beta.s3.ap-southeast-1.amazonaws.com/2022/11/kiotviet_ec3f98ba00f3882b2062a4030a7afef1.jpg",
+      "https://baya.vn/media/wysiwyg/khan-trai-ban-nilla-mau-do.jpg"
+    ],
+    "shortDescription": "Khăn trải bàn màu đơn cao cấp, tạo điểm nhấn sang trọng cho bữa tiệc của bạn.",
+    "fullDescription": "Khăn trải bàn màu đơn cao cấp, tạo điểm nhấn sang trọng cho bữa tiệc của bạn. Khăn trải bàn được làm từ chất liệu lụa mềm mại và mịn, tạo cảm giác mềm mại và thướt tha. Màu sắc sang trọng và đa dạng, phù hợp cho các buổi tiệc, tiệc cưới hoặc tiệc cao cấp. Hãy thêm sự lịch lãm và tinh tế cho sự kiện của bạn với khăn trải bàn chất liệu lụa này."
+  },
+  {
+    "id": "7",
+    "sku": "rt6wr5tu",
+    "name": "Bàn Họp",
+    "price": 123,
     "discount": 10,
     "offerEnd": "October 5, 2022 12:11:00",
     "new": false,
     "rating": 4,
     "saleCount": 54,
     "category": [
-      "chair"
+      "Bàn"
     ],
     "tag": [
-      "chair"
+      "Bàn"
     ],
     "variation": [
       {
@@ -80,119 +1958,30 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/1.jpg",
-      "/assets/img/product/fashion/3.jpg",
-      "/assets/img/product/fashion/6.jpg",
-      "/assets/img/product/fashion/8.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "https://www.ychi.vn/images/detailed/29/ychi-ban-hop-ychimt040-1.jpg",
+      "https://www.ychi.vn/images/detailed/29/ychi-ban-hop-ychimt040-2.jpg",
+      "https://www.ychi.vn/images/detailed/29/ychi-ban-hop-ychimt040-3.jpg",
+      "https://www.ychi.vn/images/detailed/29/ychi-ban-hop-ychimt040-4.jpg",
+      "https://www.ychi.vn/images/detailed/29/ychi-ban-hop-ychimt040-5.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Bàn Họp YCHIMT040 mang thiết kế mới mẻ, cực kì sang trọng và đẳng cấp. Từng đường nét tinh tế, tỉ mỉ làm nên giá trị của sản phẩm. Bên cạnh sản phẩm bàn họp lớn như hình mẫu, khi đến với YCHI khách hàng được thoải mái điều chỉnh màu sắc và kích thước theo nhu cầu cho phù hợp với thiết kế không gian doanh nghiệp.",
+    "fullDescription": "Bàn Họp YCHIMT040 có chân bàn là bộ khung gỗ, giúp gia tăng tính sang trọng, thẩm mỹ của sản phẩm. Chất liệu gỗ công nghiệp MDF cao cấp phủ Melamine bền màu, chống ẩm là yếu tố quyết định đến chất lượng vượt trội cũng như vẻ đẹp xuất sắc của sản phẩm. Thêm vào đó là mặt bàn dày, càng mang lại cho sản phẩm một kết cấu cực kì bền bỉ, mạnh mẽ được nhiều khách hàng yêu thích."
   },
   {
-    "id": "2",
-    "sku": "asdf124",
-    "name": "Ghế vải chân gỗ",
-    "price": 18.5,
-    "discount": 15,
+    "id": "8",
+    "sku": "wr4fe3d5s4r657687",
+    "name": "Bàn Quản Lý",
+    "price": 153,
+    "discount": 10,
+    "offerEnd": "October 5, 2022 12:11:00",
     "new": false,
-    "rating": 3,
-    "saleCount": 12,
+    "rating": 4,
+    "saleCount": 54,
     "category": [
-      "chair"
+      "Bàn"
     ],
     "tag": [
-      "chair"
-    ],
-    "variation": [
-      {
-        "color": "blue",
-        "image": "/assets/img/product/fashion/2.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 6
-          },
-          {
-            "name": "xl",
-            "stock": 7
-          }
-        ]
-      },
-      {
-        "color": "brown",
-        "image": "/assets/img/product/fashion/4.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 8
-          },
-          {
-            "name": "xl",
-            "stock": 3
-          },
-          {
-            "name": "xxl",
-            "stock": 7
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "image": "/assets/img/product/fashion/5.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 0
-          },
-          {
-            "name": "xxl",
-            "stock": 7
-          }
-        ]
-      }
-    ],
-    "image": [
-      "/assets/img/product/fashion/2.jpg",
-      "/assets/img/product/fashion/4.jpg",
-      "/assets/img/product/fashion/5.jpg",
-      "/assets/img/product/fashion/7.jpg",
-      "/assets/img/product/fashion/9.jpg"
-    ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-  },
-  {
-    "id": "3",
-    "sku": "asdf125",
-    "name": "Ghế nhựa chân gỗ",
-    "price": 17.45,
-    "discount": 40,
-    "offerEnd": "October 2, 2022 12:11:00",
-    "new": true,
-    "rating": 5,
-    "saleCount": 36,
-    "category": [
-      "chair"
-    ],
-    "tag": [
-      "chair"
+      "Bàn"
     ],
     "variation": [
       {
@@ -259,34 +2048,35 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/3.jpg",
-      "/assets/img/product/fashion/1.jpg",
-      "/assets/img/product/fashion/6.jpg",
-      "/assets/img/product/fashion/8.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "https://www.ychi.vn/images/detailed/29/ychi-ban-quan-ly-ychimd088-1.jpg",
+      "https://www.ychi.vn/images/detailed/29/ychi-ban-quan-ly-ychimd088-2.jpg",
+      "https://www.ychi.vn/images/detailed/29/ychi-ban-quan-ly-ychimd088-3.jpg",
+      "https://www.ychi.vn/images/detailed/29/ychi-ban-quan-ly-ychimd088-4.jpg",
+      "https://www.ychi.vn/images/detailed/29/ychi-ban-quan-ly-ychimd088-5.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Bàn Quản Lý YCHIMD088 được trau chuốt tỉ mỉ đến từng chi tiết. Đơn giản nhưng đủ tạo nên sức hút của sự uy quyền, chuyên nghiệp và sang trọng. Sản phẩm được làm từ chất liệu MDF cao cấp phủ Melamine vân gỗ không chỉ mang giá trị thẩm mỹ cao mà còn đảm bảo chất lượng vượt trội theo thời gian.",
+    "fullDescription": "Bàn Quản Lý YCHIMD088 có toàn bộ thân bàn được sản xuất từ gỗ công nghiệp MDF phủ Melamine, nên bàn vừa có kết cấu chắc chắn vừa có tính thẩm mỹ rất cao. Bàn lãnh đạo gỗ này là một siêu phẩm đang rất được ưa chuộng hiện nay tại nội thất YCHI. Bàn được thiết kế thông minh, kiểu dáng thanh lịch phù hợp với cả sếp nam và nữ. Sản phẩm có kiểu dáng hình chữ nhật, có tủ liền vô cùng tiện lợi. Bàn có kích thước tương đối lớn mang lại không gian làm việc rộng rãi, thoải mái cũng như tạo nên sự quyền lực cho người lãnh đạo."
   },
   {
-    "id": "4",
-    "sku": "asdf126",
-    "name": "Ghế vải chân gỗ",
-    "price": 15.5,
-    "discount": 0,
-    "new": true,
+    "id": "9",
+    "sku": "aej54a",
+    "name": "Bàn cụm",
+    "price": 156,
+    "discount": 10,
+    "offerEnd": "October 5, 2022 12:11:00",
+    "new": false,
     "rating": 4,
-    "saleCount": 20,
+    "saleCount": 54,
     "category": [
-      "chair"
+      "Bàn"
     ],
     "tag": [
-      "chair"
+      "Bàn"
     ],
     "variation": [
       {
-        "color": "blue",
-        "image": "/assets/img/product/fashion/2.jpg",
+        "color": "white",
+        "image": "/assets/img/product/fashion/1.jpg",
         "size": [
           {
             "name": "x",
@@ -294,17 +2084,17 @@
           },
           {
             "name": "m",
-            "stock": 6
+            "stock": 2
           },
           {
             "name": "xl",
-            "stock": 7
+            "stock": 5
           }
         ]
       },
       {
-        "color": "brown",
-        "image": "/assets/img/product/fashion/4.jpg",
+        "color": "black",
+        "image": "/assets/img/product/fashion/8.jpg",
         "size": [
           {
             "name": "x",
@@ -312,21 +2102,71 @@
           },
           {
             "name": "m",
-            "stock": 8
+            "stock": 7
           },
           {
             "name": "xl",
-            "stock": 3
+            "stock": 9
           },
           {
             "name": "xxl",
-            "stock": 7
+            "stock": 1
           }
         ]
       },
       {
-        "color": "black",
-        "image": "/assets/img/product/fashion/5.jpg",
+        "color": "brown",
+        "image": "/assets/img/product/fashion/3.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://www.ychi.vn/images/detailed/23/ychi_ban-lam-viec-cum-8-nguoi-khong-gian-elegant-space-ychihs005_full_15392022_113927.jpg",
+      "https://www.ychi.vn/images/detailed/23/ychi_ban-lam-viec-cum-8-nguoi-khong-gian-elegant-space-ychihs005ychihs005-1754775_full_15392022_113927.jpg",
+      "https://www.ychi.vn/images/detailed/23/ychi_ban-lam-viec-cum-8-nguoi-khong-gian-elegant-space-ychihs005ychihs005-10754775_full_15392022_113928.jpg",
+      "https://www.ychi.vn/images/detailed/23/ychi_ban-lam-viec-cum-8-nguoi-khong-gian-elegant-space-ychihs005ychihs005-11754775_full_15392022_113928.jpg",
+      "https://www.ychi.vn/images/detailed/23/ychi_ban-lam-viec-cum-8-nguoi-khong-gian-elegant-space-ychihs005ychihs005-2754775_full_15392022_113928.jpg"
+    ],
+    "shortDescription": "Bàn Làm Việc Cụm 8 Người Không Gian Elegant Space YCHIHS005 có thiết kế tinh tế và hiện đại mang lại sự tiện lợi cho người dùng.",
+    "fullDescription": "Bàn Làm Việc Cụm 8 Người Không Gian Elegant Space YCHIHS005 mang phong cách hiện đại, thiết kế sáng tạo với phần khung bo cong các góc mềm mại, làm cho không gian văn phòng trở nên sang trọng, lịch lãm, đẳng cấp. Đặc biệt, thiết kế mang đến sự hoàn hảo trong không gian sử dụng của từng nhân viên với đầy đủ hệ tủ liền bàn cho một không gian lưu trữ lớn."
+  },
+  {
+    "id": "10",
+    "sku": "aej45",
+    "name": "https://product.hstatic.net/200000539781/product/0-min_bde0306868244858a41311e8856ada38_grande.jpg",
+    "price": 13,
+    "discount": 10,
+    "offerEnd": "October 5, 2022 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": [
+      "Bàn"
+    ],
+    "tag": [
+      "Bàn"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/product/fashion/1.jpg",
         "size": [
           {
             "name": "x",
@@ -334,47 +2174,894 @@
           },
           {
             "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/8.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
             "stock": 7
           },
           {
             "name": "xl",
-            "stock": 0
+            "stock": 9
           },
           {
             "name": "xxl",
-            "stock": 7
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/3.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
           }
         ]
       }
     ],
     "image": [
-      "/assets/img/product/fashion/4.jpg",
-      "/assets/img/product/fashion/2.jpg",
-      "/assets/img/product/fashion/5.jpg",
-      "/assets/img/product/fashion/7.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "https://product.hstatic.net/200000539781/product/0-min_bde0306868244858a41311e8856ada38_grande.jpg",
+      "https://product.hstatic.net/200000539781/product/1__1_-min_2723cdc6f7c84e67adf6a8f496ed54b5_grande.png",
+      "https://product.hstatic.net/200000539781/product/4-min_f42b10d13afc447bbe3b77a3f82c0d17_grande.png",
+      "https://product.hstatic.net/200000539781/product/6-min_f18dcf86d41d4c15931445300a236602_grande.png",
+      "https://product.hstatic.net/200000539781/product/9-min_082f6027c26d4663955a73c83a891909_grande.png"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Bàn Quầy Bar GAPI - GM89 giúp tạo cho bạn một không gian riêng để có thể thoải mái giải tỏa cảm xúc của mình qua những ly cf, ly trà hay thậm chí là một ly rượu ngon.",
+    "fullDescription": "Kích thước bàn quầy bar vô cùng rộng rãi với chiều dài lên đến 1m6 sẽ giúp không gian sống hay làm việc của bạn trở nên vô cùng bắt mắt và hiện đại. Bàn quầy bar có thiết kế vô cùng hợp lí với kết cấu chặt chẽ qua các chân sắt cứng cáp cũng như có chỗ gác chân giúp bạn thoải mái trong quá trình sử dụng."
   },
   {
-    "id": "5",
-    "sku": "asdf127",
-    "name": "Ghế vải chân gỗ",
-    "price": 25.5,
+    "id": "11",
+    "sku": "hte5a4",
+    "name": "Bàn Trà Chân Sắt Uốn",
+    "price": 78,
+    "discount": 10,
+    "offerEnd": "October 5, 2022 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": [
+      "Bàn"
+    ],
+    "tag": [
+      "Bàn"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/8.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/3.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://file.hstatic.net/200000539781/file/1_52602aef10b74d5c9a9746e15b7a7987_grande.png",
+      "https://file.hstatic.net/200000539781/file/2_a8378e19f54d4da0ba5faf9f4830619a_grande.png",
+      "https://file.hstatic.net/200000539781/file/3_220014ec65db45e5af2f328a17c686a0_grande.png",
+      "https://file.hstatic.net/200000539781/file/4_532594562ef44b158721032f4696deb4_grande.png",
+      "https://file.hstatic.net/200000539781/file/5_66449323817c4a50acb5915025129283_grande.png"
+    ],
+    "shortDescription": "Bàn trà chân uốn Hairpin - GM63 là một sản phẩm cực kì hữu dụng trong việc tiếp đãi những người khách hay người quen vì tính tiện lợi và gần gũi của nó.",
+    "fullDescription": "Ngoài ra, đây sẽ là mẫu bàn trà đẹp để giúp căn nhà của bạn có thêm điểm nhấn mà không gây ra tình trạng lấn chiếm không gian sống. Còn gì tuyệt vời hơn, khi những người bạn và người thân cùng nhau quây quần mỗi buổi chiều để thưởng thức những tách trà hay những lý cà phê ngon."
+  },
+  {
+    "id": "12",
+    "sku": "cdefhra54",
+    "name": "Bàn bệt chân gấp gọn",
+    "price": 120,
+    "discount": 10,
+    "offerEnd": "October 5, 2022 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": [
+      "Bàn"
+    ],
+    "tag": [
+      "Bàn"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/8.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/3.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://product.hstatic.net/200000539781/product/g_bbab9ee082cd463cba1bd74175af12c8_grande.png",
+      "https://product.hstatic.net/200000539781/product/hh_ad9f91c867e741d8b8af2567a9ac76d3_grande.png",
+      "https://product.hstatic.net/200000539781/product/d_9af66afc099a43a683db21f898842307_grande.png",
+      "https://product.hstatic.net/200000539781/product/r_9d5e323ffd9a4183a2aefd9edc617072_grande.png",
+      "https://product.hstatic.net/200000539781/product/h_d0311ea761a34ff9a5a960ae96116a63_grande.png"
+    ],
+    "shortDescription": "Bàn trà sofa, phòng khách GA03 sẽ đem lại điểm cộng về sự mới mẻ trong nhà của bạn. Sự sang trọng và quý phái của bàn trà sẽ khiến những vị khách đến chơi nhà cứ phải trầm trộ về nội thất nhà bạn. ",
+    "fullDescription": "Kích thước rộng rãi phù hợp cho nhiều thành viên ngồi cùng lúc. Thiết kế bàn có ngăn và hộc bàn để chứa đựng đồ vật cực kỳ thông minh và đa năng. Cùng với bộ sofa, bàn trà chân sắt gập ngồi bệt làm nên “cặp đôi hoàn hảo” tạo ra điểm nhấn ấn tượng cho không gian tổng thể và mang lại sự thoải mái dành cho gia đình, đồng thời thể hiện vượng khí hưng thịnh và gu thẩm mỹ tinh tế của chủ nhà. "
+  },
+  {
+    "id": "13",
+    "sku": "rẹhea",
+    "name": "Combo bộ mic thu âm livestream",
+    "price": 65,
+    "discount": 10,
+    "offerEnd": "October 5, 2022 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": [
+      "Mixer"
+    ],
+    "tag": [
+      "Mixer"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/8.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/3.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://boba.vn/static/san-pham/am-thanh/thiet-bi-phong-studio/mic-thu-am-livestream/bo-mic-thu-am-pc-k200-va-mixer-m4-yamaha/9001.jpg",
+      "https://boba.vn/static/san-pham/am-thanh/thiet-bi-phong-studio/mic-thu-am-livestream/bo-mic-thu-am-pc-k200-va-mixer-m4-yamaha/9002.jpg",
+      "https://boba.vn/static/san-pham/am-thanh/thiet-bi-phong-studio/mic-thu-am-livestream/bo-mic-thu-am-pc-k200-va-mixer-m4-yamaha/9003.jpg",
+      "https://boba.vn/static/san-pham/am-thanh/thiet-bi-phong-studio/mic-thu-am-livestream/bo-mic-thu-am-pc-k200-va-mixer-m4-yamaha/9001.jpg",
+      "https://boba.vn/static/san-pham/am-thanh/thiet-bi-phong-studio/mic-thu-am-livestream/bo-mic-thu-am-pc-k200-va-mixer-m4-yamaha/9001.jpg"
+    ],
+    "shortDescription": "Nói về dòng mic tầm trung đến cao cấp thì không thể không nhắc tới hãng Tasktar độ hoàn thiện từ bên trong ra tới bên ngoài thì hãng Tasktar làm khá tốt nay boba xin giới thiệu dòng mic giá rẻ đến từ hãng Tasktar Mic thu âm PC-K200 về kiểu dáng thiết kế không khác gì so với PC-K600",
+    "fullDescription": "Nói về dòng mic tầm trung đến cao cấp thì không thể không nhắc tới hãng Tasktar độ hoàn thiện từ bên trong ra tới bên ngoài thì hãng Tasktar làm khá tốt nay boba xin giới thiệu dòng mic giá rẻ đến từ hãng Tasktar Mic thu âm PC-K200 về kiểu dáng thiết kế không khác gì so với PC-K600"
+  },
+  {
+    "id": "14",
+    "sku": "er5hj4s6ry",
+    "name": "Mixer M11 pro",
+    "price": 490,
+    "discount": 10,
+    "offerEnd": "October 5, 2022 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": [
+      "Mixer"
+    ],
+    "tag": [
+      "Mixer"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/8.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/3.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://huyphu.com/cdn/720/Product/RpYNdzR0F/m11pro.jpg",
+      "https://huyphu.com/cdn/720/Product/RpYNdzR0F/m11-pro.jpg",
+      "https://huyphu.com/cdn/720/Product/RpYNdzR0F/qcapture.jpg",
+      "https://huyphu.com/cdn/720/Product/RpYNdzR0F/captureeeee.jpg",
+      "https://huyphu.com/cdn/720/Product/RpYNdzR0F/captureeeee.jpg"
+    ],
+    "shortDescription": "Mixer yamaha M11 pro được dùng cho sân khấu, hội trường, karaoke livetream , chơi nhạc, dạy học trực tuyến chỉnh nhạc dễ dàng",
+    "fullDescription": "Bộ trộn 8 chiều 99 hiệu ứng kỹ thuật số hiệu suất sân khấu hội nghị trực tiếp Bộ trộn công suất ảo Bluetooth Mixer M11 pro dành cho nhạc Có chế độ delay - reveb Delay echo 99 hiệu ứng tùy chĩnh theo chế độ mình thích Chế độ giã giộng Nháy giọng Đj nhạc sống Kết hợp dàn karaoke gia đình Kết hợp dàn kẹo kéo Hát livestream thu âm cực đỉnh, âm thanh dày đầy chắc chắn hay hơn sound card"
+  },
+  {
+    "id": "15",
+    "sku": "we56du",
+    "name": "Soundcard thu âm livestream MKAI H9",
+    "price": 530,
+    "discount": 10,
+    "offerEnd": "October 5, 2022 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": [
+      "Mixer"
+    ],
+    "tag": [
+      "Mixer"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/8.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/3.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://huyphu.com/cdn/720/Product/usB7eXDq4/608d4cda6666a0c0790795c050ef30eb.jpg",
+      "https://huyphu.com/cdn/720/Product/usB7eXDq4/8d4288376e5160f32fc3e683e205fdad.jpg",
+      "https://huyphu.com/cdn/720/Product/usB7eXDq4/49bc5da4dc22f8354e5889f65343e3b1.jpg",
+      "https://huyphu.com/cdn/720/Product/usB7eXDq4/f7697befd7c54a854962609c7f583483.jpg",
+      "https://huyphu.com/cdn/720/Product/usB7eXDq4/05-soundcardt.jpg"
+    ],
+    "shortDescription": " Sound card thu âm H9 bluetooth là sản phẩm card âm thanh mới nhất trong quý 3 năm 2018 đang là trào lưu của các bạn yêu ca hát trên toàn Châu Á. Tương thích với nhiều thiết bị như smartphone, laptop, pc, máy tính bảng.",
+    "fullDescription": "- Sound card thu âm H9 bluetooth là sản phẩm card âm thanh mới nhất trong quý 3 năm 2018 đang là trào lưu của các bạn yêu ca hát trên toàn Châu Á. Tương thích với nhiều thiết bị như smartphone, laptop, pc, máy tính bảng. - Kết nối bluetooth tới bất cứ thiết bị công nghệ (điện thoại,máy tính bảng,...) để lấy tín hiệu âm thanh nền. - Sound card thu âm H9 tính năng làm méo giọng hát thành giọng trẻ em, người già. Khả năng chèn các hiệu ứng âm thanh vào các đoạn thu như tiếng: Gamer, vỗ tay, tiếng hò reo, nhạc cổ vũ, tiếng chim kêu,... và 21 hiệu ứng âm thanh sẽ đem lại cho bạn trải nghiệm thu âm vô cùng thú vị."
+  },
+  {
+    "id": "16",
+    "sku": "asdf123",
+    "name": "Sound card thu âm Alctron U16K MK3",
+    "price": 760,
+    "discount": 10,
+    "offerEnd": "October 5, 2022 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": [
+      "Bàn"
+    ],
+    "tag": [
+      "Bàn"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/product/fashion/1.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/fashion/8.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/fashion/3.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://huyphu.com/cdn/720/Product/tqh4jCBj_/u16k-mk3.jpg",
+      "https://huyphu.com/cdn/720/Product/tqh4jCBj_/u16k.jpg",
+      "https://huyphu.com/cdn/720/Product/tqh4jCBj_/sound-card-alctron-u16k-mk3.jpg",
+      "https://huyphu.com/cdn/720/Product/tqh4jCBj_/mp-ac-u16k-mk3-psu.jpg",
+      "https://huyphu.com/cdn/720/Product/tqh4jCBj_/mk3.jpg"
+    ],
+    "shortDescription": "Sound card thu âm Alctron U16K MK3",
+    "fullDescription": "Alctron U16K MKIII USB sử dụng bộ pre-amp tiền khuếch đại âm thanh tích hợp nguồn 48V cho micro condenser. Thiết kế plug and play cắm là sử dụng mà không cần driver cho sound card usb. Xử lý âm thanh kỹ thuật số chất lượng cao 24-bit / 96kHz khi ghi âm và 24-bit / 48kHz khi nghe nhạc. 16-DSP hiệu ứng âm thanh cho nhu cầu thu âm bài hát và hát karaoke online phong phú và hay hơn. Kết nối với các dòng điện thoại smartphone, iphone, ipad, laptop, PC, máy nghe nhạc Mp3/Mp4 qua cổng Stereo-out hoặc RCA-out"
+  },
+  {
+    "id": "37",
+    "sku": "alo211",
+    "name": "Thảm Đỏ Trải Sàn Sự Kiện Sân Khấu",
+    "price": 15.000,
     "discount": 10,
     "new": true,
-    "rating": 5,
+    "rating": 4,
     "saleCount": 25,
     "category": [
-      "chair"
+      "Thảm"
     ],
     "tag": [
-      "chair"
+      "Thảm"
     ],
     "variation": [
       {
+        "color": "red",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "green",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
         "color": "blue",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://bachma.vn/wp-content/uploads/2021/07/tham-do-su-kien-gia-re-510x510.jpg",
+      "https://bachma.vn/wp-content/uploads/2021/07/tham-su-kien-mau-do-510x510.jpg",
+      "https://bachma.vn/wp-content/uploads/2021/07/tham-lot-mau-xanh-510x510.jpg",
+      "https://bachma.vn/wp-content/uploads/2021/07/tham-hoi-nghi-xanh-510x510.jpg",
+      "https://bachma.vn/wp-content/uploads/2021/07/tham-do-su-kien-510x510.jpg"
+    ],
+    "shortDescription": " Thảm Đỏ Trải Sàn Sự Kiện Sân Khấu là một sản phẩm chất lượng cao được thiết kế đặc biệt để tạo điểm nhấn và sự sang trọng cho các sự kiện, buổi lễ, hoặc trình diễn trên sân khấu. Với chất liệu và màu sắc đa dạng, thảm đỏ không chỉ giúp tăng thêm giá trị thẩm mỹ mà còn tạo nên không gian trang trọng, cuốn hút ánh nhìn và thu hút sự chú ý của khán giả. Sự kết hợp giữa sự mềm mại và bền bỉ của sản phẩm sẽ tạo cảm giác thoải mái khi bước chân lên thảm, đồng thời bảo vệ sàn nhà và sân khấu khỏi các vết trầy xước hay hỏng hóc. Thảm Đỏ Trải Sàn Sự Kiện Sân Khấu chắc chắn sẽ là điểm nhấn hoàn hảo cho mọi sự kiện, đem lại không gian tuyệt vời và ấn tượng cho người tham dự.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+  },
+  {
+    "id": "38",
+    "sku": "alo456",
+    "name": "Thảm Nỉ Màu Đỏ",
+    "price": 25.000,
+    "discount": 19,
+    "new": true,
+    "rating": 5,
+    "saleCount": 30,
+    "category": [
+      "Thảm"
+    ],
+    "tag": [
+      "Thảm"
+    ],
+    "variation": [
+      {
+        "color": "red",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "green",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "http://thamsami.com/profiles/thamsamicom/uploads/attach/1605766523_tham-do-trai-loi-di-hanh-lang-ca.jpg",
+      "http://thamsami.com/profiles/thamsamicom/uploads/attach/1605766539_tham-ni-mau-do-tham-su-kien.jpg",
+      "http://thamsami.com/profiles/thamsamicom/uploads/attach/1605760482_tham-do-su-kien.jpg",
+      "http://thamachau.vn/profiles/thamachauvn/uploads/attach/1587528423_tham-nhua-roi-surem-tham-achau.jpg",
+      "https://lzd-img-global.slatic.net/g/p/43ac7c2a4f5025f97a8016d1d414518f.jpg_720x720q80.jpg"
+    ],
+    "shortDescription": " Thảm nỉ màu đỏ là loại thảm nỉ trải sàn có màu đỏ được sử dụng phổ biến trong các sự kiện hội nghị sân khấu ngoài trời. Thảm nỉ đỏ được làm bằng chất liệu nỉ không dệt có giá thành rẻ nên được nhiều đơn vị tổ chức sự kiện ưa chuộng. Thảm nỉ màu đỏ còn được gọi là thảm đỏ sự kiện, thảm đỏ hội nghị hay thảm đỏ trải lối đi, …",
+    "fullDescription": ""
+  },
+  {
+    "id": "39",
+    "sku": "alo111",
+    "name": "Thảm len hoa văn PPHS 483R",
+    "price": 150.00,
+    "discount": 23,
+    "new": true,
+    "rating": 5,
+    "saleCount": 40,
+    "category": [
+      "Thảm"
+    ],
+    "tag": [
+      "Thảm"
+    ],
+    "variation": [
+      {
+        "color": "red",
+        "image": "/assets/img/product/fashion/2.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 6
+          },
+          {
+            "name": "xl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "green",
+        "image": "/assets/img/product/fashion/4.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 3
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "blue",
+        "image": "/assets/img/product/fashion/5.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://bizweb.dktcdn.net/thumb/large/100/410/767/products/pphs-483r.jpg?v=1608543985473",
+      "https://bizweb.dktcdn.net/thumb/large/100/410/767/products/pphs-483-do.jpg?v=1608543990610",
+      "https://bizweb.dktcdn.net/thumb/large/100/410/767/products/tham-van-phong-pphs-843-3.jpg?v=1620638342323",
+      "https://bizweb.dktcdn.net/thumb/large/100/410/767/products/tham-van-phong-pphs-843-6.jpg?v=1620638343200",
+      "https://bizweb.dktcdn.net/thumb/large/100/410/767/products/tham-cau-thang-pphs-843-red.jpg?v=1620638438777"
+    ],
+    "shortDescription": "Thảm len hoa văn PPHS 483R là một sản phẩm thảm cao cấp được thiết kế với hoa văn độc đáo và tinh tế. Sử dụng chất liệu len chất lượng, thảm PPHS 483R mang đến không gian ấm cúng, sang trọng và đẳng cấp cho mọi căn phòng.",
+    "fullDescription": "Với hoa văn độc đáo và tinh tế, thảm len PPHS 483R là một điểm nhấn trang trí độc đáo cho bất kỳ không gian nào. Hoa văn được chọn lựa kỹ càng, từ những mẫu hoa văn truyền thống đến những mẫu hiện đại, đảm bảo đáp ứng mọi sở thích trang trí của khách hàng. Bạn có thể tùy chọn thảm với hoa văn tối giản, hoặc chọn những mẫu hoa văn phức tạp và trích dẫn từ nghệ thuật truyền thống để tạo nên một không gian đậm chất lịch sự và cổ điển."
+  },
+  {
+    "id": "40",
+    "sku": "alo777",
+    "name": "Thảm len khách sạn VENETIA",
+    "price": 200.50,
+    "discount": 25,
+    "new": true,
+    "rating": 5,
+    "saleCount": 34,
+    "category": [
+      "Thảm"
+    ],
+    "tag": [
+      "Thảm"
+    ],
+    "variation": [
+      {
+        "color": "red",
         "image": "/assets/img/product/fashion/2.jpg",
         "size": [
           {
@@ -414,7 +3101,7 @@
         ]
       },
       {
-        "color": "black",
+        "color": "blue",
         "image": "/assets/img/product/fashion/5.jpg",
         "size": [
           {
@@ -437,103 +3124,1262 @@
       }
     ],
     "image": [
-      "/assets/img/product/fashion/5.jpg",
-      "/assets/img/product/fashion/2.jpg",
-      "/assets/img/product/fashion/4.jpg",
-      "/assets/img/product/fashion/7.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "https://bizweb.dktcdn.net/thumb/large/100/410/767/products/vnt-04-do.jpg?v=1620371341670",
+      "https://bizweb.dktcdn.net/thumb/large/100/410/767/products/vnt-04.jpg?v=1608542027217",
+      "https://bizweb.dktcdn.net/thumb/large/100/410/767/products/vnt-05.jpg?v=1608542028047",
+      "https://bizweb.dktcdn.net/thumb/large/100/410/767/products/8f80934ec711244f7d00.jpg?v=1608542070450",
+      "https://bizweb.dktcdn.net/thumb/large/100/410/767/products/67503935ad0d56530f1c.jpg?v=1620371357290"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": " Thảm len khách sạn VENETIA là một sản phẩm thảm chất lượng cao, được thiết kế đặc biệt để mang đến sự sang trọng và đẳng cấp cho không gian nghỉ ngơi của khách sạn. Với chất liệu len chất lượng và hoa văn tinh tế, thảm VENETIA không chỉ là một vật trang trí đẹp mắt mà còn góp phần tạo nên không gian lịch sự và chuyên nghiệp cho khách hàng. ",
+    "fullDescription": "Chất liệu len được sử dụng để tạo nên thảm VENETIA là một lựa chọn lý tưởng trong không gian khách sạn. Len có tính đàn hồi cao, đồng thời cũng có khả năng chịu va đập và áp lực lưu thông, giúp thảm bền bỉ và đáng tin cậy trong việc chịu đựng sự sử dụng hàng ngày. Chất liệu len cũng mang lại cảm giác mềm mại và ấm áp khi chạm vào, tạo sự thoải mái và dễ chịu cho khách hàng khi bước chân lên thảm."
   },
   {
-    "id": "6",
-    "sku": "asdf128",
-    "name": "Ghế nhựa chân gỗ",
-    "price": 19.85,
-    "discount": 0,
-    "offerEnd": "October 17, 2022 12:11:00",
-    "new": true,
-    "rating": 5,
-    "saleCount": 65,
+    "id": "41",
+    "sku": "gdna999",
+    "name": "Thảm đỏ sự kiện GARDENIA",
+    "price": 150.00,
+    "discount": 20,
+    "new": false,
+    "rating": 4.5,
+    "saleCount": 48,
     "category": [
-      "chair"
+      "Thảm"
     ],
     "tag": [
-      "chair"
+      "Thảm"
     ],
     "variation": [
       {
-        "color": "white",
-        "image": "/assets/img/product/fashion/1.jpg",
+        "color": "red",
+        "image": "/assets/img/product/luxury/6.jpg",
         "size": [
           {
             "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
             "stock": 5
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "image": "/assets/img/product/fashion/8.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
           },
           {
             "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
             "stock": 9
           },
           {
-            "name": "xxl",
-            "stock": 1
+            "name": "xl",
+            "stock": 4
           }
         ]
       },
       {
         "color": "brown",
-        "image": "/assets/img/product/fashion/3.jpg",
+        "image": "/assets/img/product/luxury/7.jpg",
         "size": [
           {
             "name": "x",
-            "stock": 1
+            "stock": 6
           },
           {
             "name": "m",
-            "stock": 2
+            "stock": 10
           },
           {
             "name": "xl",
-            "stock": 4
+            "stock": 5
           },
           {
             "name": "xxl",
+            "stock": 9
+          }
+        ]
+      },
+      {
+        "color": "blue",
+        "image": "/assets/img/product/luxury/8.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
             "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 8
           }
         ]
       }
     ],
     "image": [
-      "/assets/img/product/fashion/6.jpg",
-      "/assets/img/product/fashion/3.jpg",
-      "/assets/img/product/fashion/1.jpg",
-      "/assets/img/product/fashion/8.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "https://luxtour.com.vn/wp-content/uploads/2021/09/cho-thue-tham-do-luxtour-3.jpg",
+      "https://thangvietevent.vn/image/data/TR%E1%BB%A4%20INOX/8957815253510_662509663927292_2930118905462084354_n.jpg",
+      "https://img.websosanh.vn/v2/users/wss/images/tham-ni-do-trai-san-san-khau/zkxn2an3y12vd.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-  }
-]
+    "shortDescription": "Thảm đỏ sự kiện GARDENIA mang đến sự sang trọng và lộng lẫy cho các dịp sự kiện quan trọng. Với chất liệu chất lượng và màu sắc đa dạng, sản phẩm góp phần làm nổi bật và tôn vinh các khách mời tham dự.",
+    "fullDescription": "Thảm đỏ sự kiện GARDENIA là lựa chọn hoàn hảo để tạo điểm nhấn và thu hút sự chú ý trong các dịp lễ trao giải, khai trương, triển lãm, hay sự kiện thương hiệu. Với sự kết hợp giữa chất liệu bền bỉ và hoa văn trang trọng, sản phẩm không chỉ là biểu tượng của sự kiện quan trọng mà còn là dấu ấn đặc biệt trong lòng khách hàng."
+  },
+  {
+    "id": "42",
+    "sku": "new001",
+    "name": "Thảm len khách sạn VIP LUXURY",
+    "price": 250.00,
+    "discount": 20,
+    "new": false,
+    "rating": 4.9,
+    "saleCount": 40,
+    "category": [
+      "Thảm"
+    ],
+    "tag": [
+      "Thảm",
+      "luxury",
+      "VIP"
+    ],
+    "variation": [
+      {
+        "color": "red",
+        "image": "/assets/img/product/luxury/6.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 5
+          },
+          {
+            "name": "m",
+            "stock": 9
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/luxury/7.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 6
+          },
+          {
+            "name": "m",
+            "stock": 10
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          },
+          {
+            "name": "xxl",
+            "stock": 9
+          }
+        ]
+      },
+      {
+        "color": "blue",
+        "image": "/assets/img/product/luxury/8.jpg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 8
+          },
+          {
+            "name": "xl",
+            "stock": 0
+          },
+          {
+            "name": "xxl",
+            "stock": 8
+          }
+        ]
+      }
+    ],
+    "image": [
+      "https://vuatham.com/wp-content/uploads/2019/08/tham-khach-san-phong-ngu.jpg",
+      "https://thamgiarehanoi.vn/wp-content/uploads/2021/05/tham-khach-san-ha-noi1.jpg",
+      "https://thamvanphonghanoi.com/wp-content/uploads/2021/08/bao-lau-nen-giat-tham-khach-san-1.jpg",
+      "https://www.remvietthai.com.vn/wp-content/uploads/2020/04/tham-trai-san-khach-san-a0001.jpg"
+    ],
+    "shortDescription": "Thảm len khách sạn VIP LUXURY là một sản phẩm thảm chất lượng cao, được thiết kế đặc biệt để mang đến sự sang trọng và đẳng cấp cho không gian nghỉ ngơi của khách sạn. Với chất liệu len chất lượng và hoa văn tinh tế, thảm VIP LUXURY không chỉ là một vật trang trí đẹp mắt mà còn góp phần tạo nên không gian lịch sự và chuyên nghiệp cho khách hàng.",
+    "fullDescription": "Chất liệu len được sử dụng để tạo nên thảm VIP LUXURY là một lựa chọn lý tưởng trong không gian khách sạn. Len có tính đàn hồi cao, đồng thời cũng có khả năng chịu va đập và áp lực lưu thông, giúp thảm bền bỉ và đáng tin cậy trong việc chịu đựng sự sử dụng hàng ngày. Chất liệu len cũng mang lại cảm giác mềm mại và ấm áp khi chạm vào, tạo sự thoải mái và dễ chịu cho khách hàng khi bước chân lên thảm. Thảm len khách sạn VIP LUXURY được thiết kế với những hoa văn tinh tế và độc đáo, mang đến không gian sống sang trọng và đẳng cấp. Điểm nhấn của sản phẩm là màu sắc trung tính, phù hợp với nhiều phong cách trang trí và không gian nghỉ dưỡng cao cấp. Thảm VIP LUXURY là sự kết hợp hoàn hảo giữa thẩm mỹ và tính chất chức năng, đảm bảo thoả mãn"
+    },
+    {
+      "id": "43",
+      "sku": "hilo123",
+      "name": "Thảm trải sàn HILO HARMONY",
+      "price": 120.00,
+      "discount": 10,
+      "new": true,
+      "rating": 4.5,
+      "saleCount": 18,
+      "category": [
+        "Thảm"
+      ],
+      "tag": [
+        "Thảm",
+        "harmony",
+        "modern"
+      ],
+      "variation": [
+        {
+          "color": "red",
+          "image": "/assets/img/product/luxury/6.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 5
+            },
+            {
+              "name": "m",
+              "stock": 9
+            },
+            {
+              "name": "xl",
+              "stock": 4
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/luxury/7.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 6
+            },
+            {
+              "name": "m",
+              "stock": 10
+            },
+            {
+              "name": "xl",
+              "stock": 5
+            },
+            {
+              "name": "xxl",
+              "stock": 9
+            }
+          ]
+        },
+        {
+          "color": "blue",
+          "image": "/assets/img/product/luxury/8.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 8
+            },
+            {
+              "name": "xl",
+              "stock": 0
+            },
+            {
+              "name": "xxl",
+              "stock": 8
+            }
+          ]
+        }
+      ],
+      "image": [
+        "https://thamaua.com/wp-content/uploads/2019/09/tham-trang-tri-Harmony-402-beige-silver-1-Copy.jpg",
+        "https://thamaua.com/wp-content/uploads/2019/09/tham-trang-tri-Harmony-402-beige-silver-3-Copy.jpg",
+        "https://thamaua.com/wp-content/uploads/2019/09/tham-trang-tri-Harmony-402-beige-silver-4-Copy.jpg",
+        "https://thamaua.com/wp-content/uploads/2019/09/tham-trang-tri-Harmony-402-beige-silver-2-Copy.jpg"
+      ],
+      "shortDescription": "Thảm trải sàn HILO HARMONY mang đến không gian sống hiện đại và thoải mái. Với chất liệu chất lượng và thiết kế đơn giản, sản phẩm góp phần tạo nên không gian sống đẹp và hài hòa.",
+      "fullDescription": "Thảm trải sàn HILO HARMONY là sự kết hợp hoàn hảo giữa chất liệu chất lượng và thiết kế hiện đại, tạo nên không gian sống đẹp và hài hòa. Với màu sắc trung tính và hoa văn đơn giản, thảm phù hợp với nhiều phong cách trang trí và không gian sống khác nhau. Sản phẩm chịu va đập tốt và dễ dàng vệ sinh, giúp duy trì không gian sạch sẽ và thoải mái cho cả gia đình."
+    },
+    {
+      "id": "44",
+      "sku": "star456",
+      "name": "Thảm sự kiện STARLIGHT CELEBRATION",
+      "price": 180.00,
+      "discount": 15,
+      "new": true,
+      "rating": 4.8,
+      "saleCount": 20,
+      "category": [
+        "Thảm"
+      ],
+      "tag": [
+        "event",
+        "celebration",
+        "starlight"
+      ],
+      "variation": [
+        {
+          "color": "red",
+          "image": "/assets/img/product/luxury/6.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 5
+            },
+            {
+              "name": "m",
+              "stock": 9
+            },
+            {
+              "name": "xl",
+              "stock": 4
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/luxury/7.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 6
+            },
+            {
+              "name": "m",
+              "stock": 10
+            },
+            {
+              "name": "xl",
+              "stock": 5
+            },
+            {
+              "name": "xxl",
+              "stock": 9
+            }
+          ]
+        },
+        {
+          "color": "blue",
+          "image": "/assets/img/product/luxury/8.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 8
+            },
+            {
+              "name": "xl",
+              "stock": 0
+            },
+            {
+              "name": "xxl",
+              "stock": 8
+            }
+          ]
+        }
+      ],
+      "image": [
+        "https://thegioithamsan.vn/wp-content/uploads/2022/01/Tham-su-kien-mau-do-2.jpg",
+        "https://khothamtraisan.com/wp-content/uploads/tham-ni-do-co.jpg",
+        "https://nhadep968.com/wp-content/uploads/tham-trai-san-cho-su-kien-event-1.jpg",
+        "https://thamvanphonghanoi.com/wp-content/uploads/2018/10/tham-do-trai-duong-dan-su-kien.jpg"
+      ],
+      "shortDescription": "Thảm sự kiện STARLIGHT CELEBRATION mang đến không gian trang trọi lộng lẫy và lung linh. Với chất liệu chất lượng và thiết kế đặc biệt, sản phẩm góp phần tạo nên không gian sự kiện hoành tráng và ấn tượng.",
+      "fullDescription": "Thảm sự kiện STARLIGHT CELEBRATION là lựa chọn hoàn hảo cho các buổi tiệc và sự kiện đặc biệt. Với thiết kế đặc biệt và hoa văn lấp lánh, thảm mang đến không gian trang trọi lộng lẫy và lung linh. Chất liệu chất lượng đảm bảo độ bền và tính thẩm mỹ cao của sản phẩm, giúp tạo nên không gian sự kiện hoành tráng và ấn tượng."
+    },
+    {
+      "id": "45",
+      "sku": "vibrant789",
+      "name": "Thảm sự kiện VIBRANT GATHERING",
+      "price": 250.00,
+      "discount": 20,
+      "new": true,
+      "rating": 4.9,
+      "saleCount": 15,
+      "category": [
+        "Thảm"
+      ],
+      "tag": [
+        "event",
+        "gathering",
+        "vibrant"
+      ],
+      "variation": [
+        {
+          "color": "red",
+          "image": "/assets/img/product/luxury/6.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 5
+            },
+            {
+              "name": "m",
+              "stock": 9
+            },
+            {
+              "name": "xl",
+              "stock": 4
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/luxury/7.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 6
+            },
+            {
+              "name": "m",
+              "stock": 10
+            },
+            {
+              "name": "xl",
+              "stock": 5
+            },
+            {
+              "name": "xxl",
+              "stock": 9
+            }
+          ]
+        },
+        {
+          "color": "blue",
+          "image": "/assets/img/product/luxury/8.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 8
+            },
+            {
+              "name": "xl",
+              "stock": 0
+            },
+            {
+              "name": "xxl",
+              "stock": 8
+            }
+          ]
+        }
+      ],
+      "image": [
+        "http://thamthanhdat.com.vn/profiles/thamthanhdatcomvn/uploads/attach/1621063108_thamnithamsukien06.jpg",
+        "http://thamthanhdat.com.vn/profiles/thamthanhdatcomvn/uploads/attach/1621063124_thamnithamsukien08.jpg",
+        "http://thamthanhdat.com.vn/profiles/thamthanhdatcomvn/uploads/attach/1621063140_thamnithamsukien09.jpg"
+      ],
+      "shortDescription": "Thảm sự kiện VIBRANT GATHERING mang đến không gian trang trọi sôi động và nổi bật. Với chất liệu chất lượng và thiết kế đa dạng, sản phẩm góp phần tạo nên không gian sự kiện độc đáo và nghệ thuật.",
+      "fullDescription": "Thảm sự kiện VIBRANT GATHERING là lựa chọn hoàn hảo cho các sự kiện độc đáo và nghệ thuật. Với thiết kế đa dạng và màu sắc nổi bật, thảm mang đến không gian trang trọi sôi động và nổi bật. Chất liệu chất lượng đảm bảo độ bền và tính thẩm mỹ cao của sản phẩm, giúp tạo nên không gian sự kiện độc đáo và nổi bật."
+    },
+    {
+      "id": "46",
+      "sku": "elegant456",
+      "name": "Thảm trang trí ELEGANT AFFAIR",
+      "price": 150.00,
+      "discount": 10,
+      "new": true,
+      "rating": 4.7,
+      "saleCount": 25,
+      "category": [
+        "Thảm"
+      ],
+      "tag": [
+        "Thảm"
+      ],
+      "variation": [
+        {
+          "color": "red",
+          "image": "/assets/img/product/luxury/6.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 5
+            },
+            {
+              "name": "m",
+              "stock": 9
+            },
+            {
+              "name": "xl",
+              "stock": 4
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/luxury/7.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 6
+            },
+            {
+              "name": "m",
+              "stock": 10
+            },
+            {
+              "name": "xl",
+              "stock": 5
+            },
+            {
+              "name": "xxl",
+              "stock": 9
+            }
+          ]
+        },
+        {
+          "color": "blue",
+          "image": "/assets/img/product/luxury/8.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 8
+            },
+            {
+              "name": "xl",
+              "stock": 0
+            },
+            {
+              "name": "xxl",
+              "stock": 8
+            }
+          ]
+        }
+      ],
+      "image": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUJRHcQxxEiSXS5pDs_K1DN7aDSl-Ci08odQ&usqp=CAU",
+        "https://thamvinhthuan.com/wp-content/uploads/2018/02/tham-trai-loi-di-1-300x366.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCGx6gE4YUdjNkjMH_ZEY5Yl9dVCArBnvSmAh9R7RB6Q20kd7kQmFe_dWSaQQSPQcU6ng&usqp=CAU"
+      ],
+      "shortDescription": "Thảm trang trí ELEGANT AFFAIR mang đến không gian trang trọi tinh tế và sang trọng. Với chất liệu chất lượng và thiết kế đơn giản, sản phẩm góp phần tạo nên không gian trang trọi hoàn hảo cho các sự kiện và lễ hội.",
+      "fullDescription": "Thảm trang trí ELEGANT AFFAIR là lựa chọn lý tưởng cho các sự kiện và lễ hội đặc biệt. Với chất liệu chất lượng và thiết kế đơn giản, thảm mang đến không gian trang trọi tinh tế và sang trọng. Màu sắc trung tính của sản phẩm phù hợp với nhiều phong cách trang trí và không gian sự kiện khác nhau, giúp tạo nên không gian hoàn hảo cho mỗi dịp tổ chức sự kiện."
+    },
+    {
+      "id": "47",
+      "sku": "active789",
+      "name": "Thảm thể thao ACTIVE ZONE",
+      "price": 80.00,
+      "discount": 5,
+      "new": true,
+      "rating": 4.5,
+      "saleCount": 30,
+      "category": [
+        "Thảm"
+      ],
+      "tag": [
+        "Thảm"
+      ],
+      "variation": [
+        {
+          "color": "red",
+          "image": "/assets/img/product/luxury/6.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 5
+            },
+            {
+              "name": "m",
+              "stock": 9
+            },
+            {
+              "name": "xl",
+              "stock": 4
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/luxury/7.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 6
+            },
+            {
+              "name": "m",
+              "stock": 10
+            },
+            {
+              "name": "xl",
+              "stock": 5
+            },
+            {
+              "name": "xxl",
+              "stock": 9
+            }
+          ]
+        },
+        {
+          "color": "blue",
+          "image": "/assets/img/product/luxury/8.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 8
+            },
+            {
+              "name": "xl",
+              "stock": 0
+            },
+            {
+              "name": "xxl",
+              "stock": 8
+            }
+          ]
+        }
+      ],
+      "image": [
+        "https://azfloor.vn/wp-content/uploads/2022/07/tham-trai-san-the-thao-ngoai-troi-mau-xanh-1024x683.jpg",
+        "https://azfloor.vn/wp-content/uploads/2022/07/tham-trai-san-the-thao-ngoai-troi-mau-do.jpg",
+        "https://thethaonamviet.vn/wp-content/uploads/2021/10/tham-san-ngoai-troi-301x301-1.jpg"
+      ],
+      "shortDescription": "Thảm thể thao ACTIVE ZONE mang đến không gian vận động và tập luyện sôi động. Với chất liệu chất lượng và thiết kế chuyên dụng, sản phẩm góp phần tạo nên không gian thể thao đầy năng động và khỏe khoắn.",
+      "fullDescription": "Thảm thể thao ACTIVE ZONE là lựa chọn tuyệt vời cho không gian thể thao và tập luyện. Với chất liệu chất lượng và thiết kế chuyên dụng, thảm mang đến không gian vận động sôi động và đầy năng động. Chất liệu bền bỉ và chống trượt đảm bảo an toàn cho người sử dụng, giúp tập luyện hiệu quả và tiện lợi."
+    },
+    {
+      "id": "34",
+      "sku": "table202",
+      "name": "Khăn trải bàn hoạt hình",
+      "price": 180,
+      "discount": 12,
+      "offerEnd": "February 28, 2024 10:30:00",
+      "new": false,
+      "rating": 4.5,
+      "saleCount": 10,
+      "category": [
+        "Khăn Trải Bàn"
+      ],
+      "tag": [
+        "Khăn Trải Bàn",
+        "lace",
+        "embroidery"
+      ],
+      "variation": [
+        {
+          "color": "white",
+          "image": "https://img.alicdn.com/imgextra/i1/418711788/O1CN011P4wcgTeDv9a8cw_!!418711788.jpg_400x400.jpg_.webp",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 2
+            },
+            {
+              "name": "xl",
+              "stock": 5
+            }
+          ]
+        },
+        {
+          "color": "black",
+          "image": "https://img.alicdn.com/imgextra/i4/418711788/O1CN011P4wca6bF1u1j5M_!!418711788.jpg_400x400.jpg_.webp",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 7
+            },
+            {
+              "name": "xl",
+              "stock": 9
+            },
+            {
+              "name": "xxl",
+              "stock": 1
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "https://img.alicdn.com/imgextra/i4/418711788/O1CN011P4wcge3LMnwgMs_!!418711788.jpg_400x400.jpg_.webp",
+          "size": [
+            {
+              "name": "x",
+              "stock": 1
+            },
+            {
+              "name": "m",
+              "stock": 2
+            },
+            {
+              "name": "xl",
+              "stock": 4
+            },
+            {
+              "name": "xxl",
+              "stock": 0
+            }
+          ]
+        }
+      ],
+      "image": [
+        "https://img.alicdn.com/imgextra/i1/418711788/O1CN011P4wcgTeDv9a8cw_!!418711788.jpg_400x400.jpg_.webp",
+        "https://img.alicdn.com/imgextra/i4/418711788/O1CN011P4wca6bF1u1j5M_!!418711788.jpg_400x400.jpg_.webp",
+        "https://img.alicdn.com/imgextra/i4/418711788/O1CN011P4wcge3LMnwgMs_!!418711788.jpg_400x400.jpg_.webp",
+        "https://img.alicdn.com/imgextra/i1/418711788/O1CN011P4wchDTWPHj1xc_!!418711788.jpg_400x400.jpg_.webp",
+        "https://img.alicdn.com/imgextra/i1/418711788/O1CN011P4wcbdbs6QUdv6_!!418711788.jpg_400x400.jpg_.webp"
+      ],
+      "shortDescription": "Khăn trải bàn hoạt hình với thiết kế đáng yêu và lôi cuốn, tạo không gian vui nhộn cho các buổi tiệc của bạn.",
+      "fullDescription": "Khăn trải bàn hoạt hình với thiết kế đáng yêu và lôi cuốn, tạo không gian vui nhộn cho các buổi tiệc của bạn. Khăn trải bàn được trang trí bằng các hình hoạt hình ngộ nghĩnh và đa dạng, mang đến không gian sống động và thú vị. Với chất liệu mềm mại và chất lượng cao, khăn trải bàn hoạt hình sẽ tạo điểm nhấn hấp dẫn và nổi bật cho bàn tiệc. Sản phẩm phù hợp cho các sự kiện, bữa tiệc gia đình, tiệc sinh nhật hoặc các dịp lễ hội. Hãy trang trí bữa tiệc của bạn với khăn trải bàn hoạt hình để mang đến niềm vui và cảm xúc đầy màu sắc cho mọi người tham dự."
+    },
+    {
+      "id": "1",
+      "sku": "asdf123",
+      "name": "Ghế nhựa chân gỗ",
+      "price": 100.000,
+      "discount": 10,
+      "offerEnd": "October 5, 2022 12:11:00",
+      "new": false,
+      "rating": 4,
+      "saleCount": 54,
+      "category": [
+        "Ghế"
+      ],
+      "tag": [
+        "Ghế"
+      ],
+      "variation": [
+        {
+          "color": "white",
+          "image": "/assets/img/product/fashion/1.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 2
+            },
+            {
+              "name": "xl",
+              "stock": 5
+            }
+          ]
+        },
+        {
+          "color": "black",
+          "image": "/assets/img/product/fashion/8.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 7
+            },
+            {
+              "name": "xl",
+              "stock": 9
+            },
+            {
+              "name": "xxl",
+              "stock": 1
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/fashion/3.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 1
+            },
+            {
+              "name": "m",
+              "stock": 2
+            },
+            {
+              "name": "xl",
+              "stock": 4
+            },
+            {
+              "name": "xxl",
+              "stock": 0
+            }
+          ]
+        }
+      ],
+      "image": [
+        "/assets/img/product/fashion/1.jpg",
+        "/assets/img/product/fashion/3.jpg",
+        "/assets/img/product/fashion/6.jpg",
+        "/assets/img/product/fashion/8.jpg",
+        "/assets/img/product/fashion/9.jpg"
+      ],
+      "shortDescription": "Ghế nhựa chân gỗ với thiết kế đơn giản và tinh tế, phù hợp cho các sự kiện và buổi tiệc.",
+      "fullDescription": "Ghế nhựa chân gỗ với thiết kế đơn giản và tinh tế, phù hợp cho các sự kiện và buổi tiệc. Ghế được làm từ chất liệu nhựa chất lượng cao, bền bỉ và dễ dàng vệ sinh. Chân gỗ tự nhiên vừa tạo sự ổn định cho ghế vừa tăng thêm vẻ đẹp tự nhiên cho sản phẩm. Ghế nhựa chân gỗ là sự lựa chọn lý tưởng cho các buổi tổ chức sự kiện trong nhà hoặc ngoài trời, từ tiệc sinh nhật, hội nghị, đến các bữa tiệc gia đình. Hãy tạo không gian thoải mái và hiện đại cho sự kiện của bạn với ghế nhựa chân gỗ này."
+    },
+    {
+      "id": "2",
+      "sku": "asdf124",
+      "name": "Ghế vải chân gỗ",
+      "price": 80.000,
+      "discount": 15,
+      "new": false,
+      "rating": 3,
+      "saleCount": 12,
+      "category": [
+        "Ghế"
+      ],
+      "tag": [
+        "Ghế"
+      ],
+      "variation": [
+        {
+          "color": "blue",
+          "image": "/assets/img/product/fashion/2.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 6
+            },
+            {
+              "name": "xl",
+              "stock": 7
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/fashion/4.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 8
+            },
+            {
+              "name": "xl",
+              "stock": 3
+            },
+            {
+              "name": "xxl",
+              "stock": 7
+            }
+          ]
+        },
+        {
+          "color": "black",
+          "image": "/assets/img/product/fashion/5.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 7
+            },
+            {
+              "name": "xl",
+              "stock": 0
+            },
+            {
+              "name": "xxl",
+              "stock": 7
+            }
+          ]
+        }
+      ],
+      "image": [
+        "/assets/img/product/fashion/2.jpg",
+        "/assets/img/product/fashion/4.jpg",
+        "/assets/img/product/fashion/5.jpg",
+        "/assets/img/product/fashion/7.jpg",
+        "/assets/img/product/fashion/9.jpg"
+      ],
+      "shortDescription": "Ghế vải chân gỗ với thiết kế hiện đại và sang trọng, tạo điểm nhấn tinh tế cho không gian sự kiện của bạn.",
+      "fullDescription": "Ghế vải chân gỗ với thiết kế hiện đại và sang trọng, tạo điểm nhấn tinh tế cho không gian sự kiện của bạn. Ghế được bọc vải mềm mại và êm ái, mang lại cảm giác thoải mái cho người sử dụng. Chân gỗ tự nhiên vừa tạo sự ổn định cho ghế vừa tăng thêm vẻ đẹp tự nhiên cho sản phẩm. Ghế vải chân gỗ là sự lựa chọn lý tưởng cho các buổi tổ chức sự kiện, từ tiệc cưới, hội nghị, đến các buổi tiệc cao cấp. Hãy tạo không gian ấm cúng và sang trọng cho sự kiện của bạn với ghế vải chân gỗ này."
+    },
+    {
+      "id": "3",
+      "sku": "asdf125",
+      "name": "Ghế nhựa chân gỗ",
+      "price": 100.000,
+      "discount": 40,
+      "offerEnd": "October 2, 2022 12:11:00",
+      "new": true,
+      "rating": 5,
+      "saleCount": 36,
+      "category": [
+        "Ghế"
+      ],
+      "tag": [
+        "Ghế"
+      ],
+      "variation": [
+        {
+          "color": "white",
+          "image": "/assets/img/product/fashion/1.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 2
+            },
+            {
+              "name": "xl",
+              "stock": 5
+            }
+          ]
+        },
+        {
+          "color": "black",
+          "image": "/assets/img/product/fashion/8.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 7
+            },
+            {
+              "name": "xl",
+              "stock": 9
+            },
+            {
+              "name": "xxl",
+              "stock": 1
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/fashion/3.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 1
+            },
+            {
+              "name": "m",
+              "stock": 2
+            },
+            {
+              "name": "xl",
+              "stock": 4
+            },
+            {
+              "name": "xxl",
+              "stock": 0
+            }
+          ]
+        }
+      ],
+      "image": [
+        "/assets/img/product/fashion/3.jpg",
+        "/assets/img/product/fashion/1.jpg",
+        "/assets/img/product/fashion/6.jpg",
+        "/assets/img/product/fashion/8.jpg",
+        "/assets/img/product/fashion/9.jpg"
+      ],
+      "shortDescription": "Ghế nhựa chân gỗ với thiết kế đơn giản và tinh tế, phù hợp cho các sự kiện và buổi tiệc.",
+      "fullDescription": "Ghế nhựa chân gỗ với thiết kế đơn giản và tinh tế, phù hợp cho các sự kiện và buổi tiệc. Ghế được làm từ chất liệu nhựa chất lượng cao, bền bỉ và dễ dàng vệ sinh. Chân gỗ tự nhiên vừa tạo sự ổn định cho ghế vừa tăng thêm vẻ đẹp tự nhiên cho sản phẩm. Ghế nhựa chân gỗ là sự lựa chọn lý tưởng cho các buổi tổ chức sự kiện trong nhà hoặc ngoài trời, từ tiệc sinh nhật, hội nghị, đến các bữa tiệc gia đình. Hãy tạo không gian thoải mái và hiện đại cho sự kiện của bạn với ghế nhựa chân gỗ này."
+    },
+    {
+      "id": "4",
+      "sku": "asdf126",
+      "name": "Ghế vải chân gỗ",
+      "price": 85.000,
+      "discount": 0,
+      "new": true,
+      "rating": 4,
+      "saleCount": 20,
+      "category": [
+        "Ghế"
+      ],
+      "tag": [
+        "Ghế"
+      ],
+      "variation": [
+        {
+          "color": "blue",
+          "image": "/assets/img/product/fashion/2.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 6
+            },
+            {
+              "name": "xl",
+              "stock": 7
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/fashion/4.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 8
+            },
+            {
+              "name": "xl",
+              "stock": 3
+            },
+            {
+              "name": "xxl",
+              "stock": 7
+            }
+          ]
+        },
+        {
+          "color": "black",
+          "image": "/assets/img/product/fashion/5.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 7
+            },
+            {
+              "name": "xl",
+              "stock": 0
+            },
+            {
+              "name": "xxl",
+              "stock": 7
+            }
+          ]
+        }
+      ],
+      "image": [
+        "/assets/img/product/fashion/4.jpg",
+        "/assets/img/product/fashion/2.jpg",
+        "/assets/img/product/fashion/5.jpg",
+        "/assets/img/product/fashion/7.jpg",
+        "/assets/img/product/fashion/9.jpg"
+      ],
+      "shortDescription": "Ghế vải chân gỗ với thiết kế hiện đại và sang trọng, tạo điểm nhấn tinh tế cho không gian sự kiện của bạn.",
+      "fullDescription": "Ghế vải chân gỗ với thiết kế hiện đại và sang trọng, tạo điểm nhấn tinh tế cho không gian sự kiện của bạn. Ghế được bọc vải mềm mại và êm ái, mang lại cảm giác thoải mái cho người sử dụng. Chân gỗ tự nhiên vừa tạo sự ổn định cho ghế vừa tăng thêm vẻ đẹp tự nhiên cho sản phẩm. Ghế vải chân gỗ là sự lựa chọn lý tưởng cho các buổi tổ chức sự kiện, từ tiệc cưới, hội nghị, đến các buổi tiệc cao cấp. Hãy tạo không gian ấm cúng và sang trọng cho sự kiện của bạn với ghế vải chân gỗ này."
+    },
+    {
+      "id": "5",
+      "sku": "asdf127",
+      "name": "Ghế vải chân gỗ",
+      "price": 80.000,
+      "discount": 10,
+      "new": true,
+      "rating": 5,
+      "saleCount": 25,
+      "category": [
+        "Ghế"
+      ],
+      "tag": [
+        "Ghế"
+      ],
+      "variation": [
+        {
+          "color": "blue",
+          "image": "/assets/img/product/fashion/2.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 6
+            },
+            {
+              "name": "xl",
+              "stock": 7
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/fashion/4.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 8
+            },
+            {
+              "name": "xl",
+              "stock": 3
+            },
+            {
+              "name": "xxl",
+              "stock": 7
+            }
+          ]
+        },
+        {
+          "color": "black",
+          "image": "/assets/img/product/fashion/5.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 7
+            },
+            {
+              "name": "xl",
+              "stock": 0
+            },
+            {
+              "name": "xxl",
+              "stock": 7
+            }
+          ]
+        }
+      ],
+      "image": [
+        "/assets/img/product/fashion/5.jpg",
+        "/assets/img/product/fashion/2.jpg",
+        "/assets/img/product/fashion/4.jpg",
+        "/assets/img/product/fashion/7.jpg",
+        "/assets/img/product/fashion/9.jpg"
+      ],
+      "shortDescription": "Ghế vải chân gỗ với thiết kế hiện đại và sang trọng, tạo điểm nhấn tinh tế cho không gian sự kiện của bạn.",
+      "fullDescription": "Ghế vải chân gỗ với thiết kế hiện đại và sang trọng, tạo điểm nhấn tinh tế cho không gian sự kiện của bạn. Ghế được bọc vải mềm mại và êm ái, mang lại cảm giác thoải mái cho người sử dụng. Chân gỗ tự nhiên vừa tạo sự ổn định cho ghế vừa tăng thêm vẻ đẹp tự nhiên cho sản phẩm. Ghế vải chân gỗ là sự lựa chọn lý tưởng cho các buổi tổ chức sự kiện, từ tiệc cưới, hội nghị, đến các buổi tiệc cao cấp. Hãy tạo không gian ấm cúng và sang trọng cho sự kiện của bạn với ghế vải chân gỗ này."
+    },
+    {
+      "id": "6",
+      "sku": "asdf128",
+      "name": "Ghế nhựa chân gỗ",
+      "price": 100.000,
+      "discount": 0,
+      "offerEnd": "October 17, 2022 12:11:00",
+      "new": true,
+      "rating": 5,
+      "saleCount": 65,
+      "category": [
+        "Ghế"
+      ],
+      "tag": [
+        "Ghế"
+      ],
+      "variation": [
+        {
+          "color": "white",
+          "image": "/assets/img/product/fashion/1.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 2
+            },
+            {
+              "name": "xl",
+              "stock": 5
+            }
+          ]
+        },
+        {
+          "color": "black",
+          "image": "/assets/img/product/fashion/8.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 7
+            },
+            {
+              "name": "xl",
+              "stock": 9
+            },
+            {
+              "name": "xxl",
+              "stock": 1
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/product/fashion/3.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 1
+            },
+            {
+              "name": "m",
+              "stock": 2
+            },
+            {
+              "name": "xl",
+              "stock": 4
+            },
+            {
+              "name": "xxl",
+              "stock": 0
+            }
+          ]
+        }
+      ],
+      "image": [
+        "/assets/img/product/fashion/6.jpg",
+        "/assets/img/product/fashion/3.jpg",
+        "/assets/img/product/fashion/1.jpg",
+        "/assets/img/product/fashion/8.jpg",
+        "/assets/img/product/fashion/9.jpg"
+      ],
+      "shortDescription": "Ghế nhựa chân gỗ với thiết kế đơn giản và tinh tế, phù hợp cho các sự kiện và buổi tiệc.",
+      "fullDescription": "Ghế nhựa chân gỗ với thiết kế đơn giản và tinh tế, phù hợp cho các sự kiện và buổi tiệc. Ghế được làm từ chất liệu nhựa chất lượng cao, bền bỉ và dễ dàng vệ sinh. Chân gỗ tự nhiên vừa tạo sự ổn định cho ghế vừa tăng thêm vẻ đẹp tự nhiên cho sản phẩm. Ghế nhựa chân gỗ là sự lựa chọn lý tưởng cho các buổi tổ chức sự kiện trong nhà hoặc ngoài trời, từ tiệc sinh nhật, hội nghị, đến các bữa tiệc gia đình. Hãy tạo không gian thoải mái và hiện đại cho sự kiện của bạn với ghế nhựa chân gỗ này."
+    }
+  ]

@@ -37,7 +37,7 @@ const Wishlist = ({
         />
       </MetaTags>
 
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Trang Chủ</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
         Yêu Thích
       </BreadcrumbsItem>
@@ -116,17 +116,17 @@ const Wishlist = ({
                                     <Fragment>
                                       <span className="amount old">
                                         {
-                                          finalProductPrice + " VNĐ"}
+                                          finalProductPrice +"K" +" VNĐ"}
                                       </span>
                                       <span className="amount">
                                         {
-                                          finalDiscountedPrice + " VNĐ"}
+                                          finalDiscountedPrice +"K" +" VNĐ"}
                                       </span>
                                     </Fragment>
                                   ) : (
                                     <span className="amount">
                                       {
-                                        finalProductPrice + " VNĐ"}
+                                        finalProductPrice +"K" +" VNĐ"}
                                     </span>
                                   )}
                                 </td>
@@ -146,7 +146,7 @@ const Wishlist = ({
                                     <Link
                                       to={`${process.env.PUBLIC_URL}/product/${wishlistItem.id}`}
                                     >
-                                      Tùy Chọn
+                                      Xem Sản Phẩm
                                     </Link>
                                   ) : wishlistItem.stock &&
                                     wishlistItem.stock > 0 ? (

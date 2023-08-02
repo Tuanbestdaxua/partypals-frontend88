@@ -8,27 +8,10 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import RelatedProductSlider from "../../wrappers/product/RelatedProductSlider";
 import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab";
 import ProductImageDescription from "../../wrappers/product/ProductImageDescription";
-import Axios from "axios";
 
 const ProductTabLeft = ({ location, product }) => {
   const { pathname } = location;
-  const [data, setData] = React.useState(null);
-  React.useEffect(() => {
-    const getAccountInfo = async () => {
-      Axios({
-        method: "GET",
-        url: `https://partypal-vwog.onrender.com/api/product/${product.id}`,
-      })
-        .then((res) => {
-          setData(res.data.product);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    };
-    getAccountInfo();
-    // eslint-disable-next-line
-  }, []);
+
   return (
     <Fragment>
       <MetaTags>
@@ -39,7 +22,7 @@ const ProductTabLeft = ({ location, product }) => {
         />
       </MetaTags>
 
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Trang Chủ</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
         Sản Phẩm
       </BreadcrumbsItem>
@@ -47,29 +30,26 @@ const ProductTabLeft = ({ location, product }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
-        {data && (
-          <>
-            {/* product description with image */}
-            <ProductImageDescription
-              spaceTopClass="pt-100"
-              spaceBottomClass="pb-100"
-              product={data}
-              galleryType="leftThumb"
-            />
 
-            {/* product description tab */}
-            <ProductDescriptionTab
-              spaceBottomClass="pb-90"
-              productFullDesc={data?.fullDescription}
-            />
+        {/* product description with image */}
+        <ProductImageDescription
+          spaceTopClass="pt-100"
+          spaceBottomClass="pb-100"
+          product={product}
+          galleryType="leftThumb"
+        />
 
-            {/* related product slider */}
-            <RelatedProductSlider
-              spaceBottomClass="pb-95"
-              category={data.categoryID}
-            />
-          </>
-        )}
+        {/* product description tab */}
+        <ProductDescriptionTab
+          spaceBottomClass="pb-90"
+          productFullDesc={product.fullDescription}
+        />
+
+        {/* related product slider */}
+        <RelatedProductSlider
+          spaceBottomClass="pb-95"
+          category={product.category[0]}
+        />
       </LayoutOne>
     </Fragment>
   );
@@ -82,9 +62,6 @@ ProductTabLeft.propTypes = {
 
 const mapStateToProps = (state, ownProps) => {
   const itemId = ownProps.match.params.id;
-  console.log(
-    state.productData.products
-  );
   return {
     product: state.productData.products.filter(
       single => single.id === itemId

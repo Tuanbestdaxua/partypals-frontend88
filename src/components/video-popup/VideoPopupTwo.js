@@ -24,7 +24,7 @@ const VideoPopupTwo = ({ spaceBottomClass }) => {
             Lorem ipsum dolor sit amet consectetur adipisici elit sed do eiusm.
           </p>
           <div className="link">
-            <Link to={process.env.PUBLIC_URL + "/about"}>Shop Now</Link>
+            <Link to={process.env.PUBLIC_URL + "/about"}>Mua Ngay</Link>
           </div>
         </div>
         <ModalVideo

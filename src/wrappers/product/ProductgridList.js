@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useEffect } from "react";
 import { connect } from "react-redux";
 import { addToCart } from "../../redux/actions/cartActions";
 import { addToWishlist } from "../../redux/actions/wishlistActions";
@@ -19,16 +19,14 @@ const ProductGrid = ({
   sliderClassName,
   spaceBottomClass
 }) => {
-  const [data, setData]= useState(null);
-
   useEffect(async() => {
     const data = await axiosClient.get("product")
-    setData(data);
+    console.log(data);
   }, []);
   
   return (
     <Fragment>
-      {data && data.list.map((product) => (
+      {products.map(product => (
         <ProductGridListSingle
           sliderClassName={sliderClassName}
           spaceBottomClass={spaceBottomClass}
@@ -37,20 +35,10 @@ const ProductGrid = ({
           addToCart={addToCart}
           addToWishlist={addToWishlist}
           addToCompare={addToCompare}
-          cartItem={
-            cartItems.filter((cartItem) => cartItem.id === product._id)[0]
-          }
-          wishlistItem={
-            wishlistItems.filter(
-              (wishlistItem) => wishlistItem.id === product._id
-            )[0]
-          }
-          compareItem={
-            compareItems.filter(
-              (compareItem) => compareItem.id === product._id
-            )[0]
-          }
-          key={product._id}
+          cartItem={cartItems.filter(cartItem => cartItem.id === product.id)[0]}
+          wishlistItem={wishlistItems.filter(wishlistItem => wishlistItem.id === product.id)[0]}
+          compareItem={compareItems.filter(compareItem => compareItem.id === product.id)[0]}
+          key={product.id}
         />
       ))}
     </Fragment>

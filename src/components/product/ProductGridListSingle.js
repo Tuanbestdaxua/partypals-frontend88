@@ -5,7 +5,6 @@ import { useToasts } from "react-toast-notifications";
 import { getDiscountPrice } from "../../helpers/product";
 import Rating from "./sub-components/ProductRating";
 import ProductModal from "./ProductModal";
-import Axios from "axios";
 
 const ProductGridListSingle = ({
   product,
@@ -21,29 +20,13 @@ const ProductGridListSingle = ({
 }) => {
   const [modalShow, setModalShow] = useState(false);
   const { addToast } = useToasts();
- const [productStock, setProductStock] = useState(false);
+
   const discountedPrice = getDiscountPrice(product.price, product.discount);
   const finalProductPrice = +(product.price * currency.currencyRate).toFixed(2);
   const finalDiscountedPrice = +(
     discountedPrice * currency.currencyRate
   ).toFixed(2);
-  React.useEffect(() => {
-    const getAccountInfo = async () => {
-      Axios({
-        method: "GET",
-        url: `https://partypal-vwog.onrender.com/api/variation/${product._id}`,
-      })
-        .then((res) => {
-  
-          setProductStock(res.data.variation[0].stock);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    };
-    getAccountInfo();
-    // eslint-disable-next-line
-  }, []);
+
   return (
     <Fragment>
       <div
@@ -55,17 +38,21 @@ const ProductGridListSingle = ({
           className={`product-wrap ${spaceBottomClass ? spaceBottomClass : ""}`}
         >
           <div className="product-img">
-            <Link to={process.env.PUBLIC_URL + "/product/" + product._id}>
+            <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
               <img
                 className="default-img"
-                src={process.env.PUBLIC_URL + product.image}
+                src={process.env.PUBLIC_URL + product.image[0]}
                 alt=""
               />
-              <img
-                className="hover-img"
-                src={process.env.PUBLIC_URL + product.image}
-                alt=""
-              />
+              {product.image.length > 1 ? (
+                <img
+                  className="hover-img"
+                  src={process.env.PUBLIC_URL + product.image[1]}
+                  alt=""
+                />
+              ) : (
+                ""
+              )}
             </Link>
             {product.discount || product.new ? (
               <div className="product-img-badges">
@@ -96,20 +83,20 @@ const ProductGridListSingle = ({
                 </button>
               </div>
               <div className="pro-same-action pro-cart">
-                {product?.affiliateLink ? (
+                {product.affiliateLink ? (
                   <a
-                    href={product?.affiliateLink}
+                    href={product.affiliateLink}
                     rel="noopener noreferrer"
                     target="_blank"
                   >
                     {" "}
                     Buy now{" "}
                   </a>
-                ) : product.variation ? (
-                  <Link to={`${process.env.PUBLIC_URL}/product/${product._id}`}>
+                ) : product.variation && product.variation.length >= 1 ? (
+                  <Link to={`${process.env.PUBLIC_URL}/product/${product.id}`}>
                     Select Option
                   </Link>
-                ) : productStock > 0 ? (
+                ) : product.stock && product.stock > 0 ? (
                   <button
                     onClick={() => addToCart(product, addToast)}
                     className={
@@ -143,8 +130,8 @@ const ProductGridListSingle = ({
           </div>
           <div className="product-content text-center">
             <h3>
-              <Link to={process.env.PUBLIC_URL + "/product/" + product._id}>
-                {product.productName}
+              <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+                {product.name}
               </Link>
             </h3>
             {product.rating && product.rating > 0 ? (
@@ -157,11 +144,13 @@ const ProductGridListSingle = ({
             <div className="product-price">
               {discountedPrice !== null ? (
                 <Fragment>
-                  <span>{finalDiscountedPrice + " VNĐ"}</span>{" "}
-                  <span className="old">{finalProductPrice + " VNĐ"}</span>
+                  <span>{ finalDiscountedPrice +"K" +" VNĐ"}</span>{" "}
+                  <span className="old">
+                    { finalProductPrice +"K" +" VNĐ"}
+                  </span>
                 </Fragment>
               ) : (
-                <span>{finalProductPrice + " VNĐ"} </span>
+                <span>{ finalProductPrice +"K" +" VNĐ"} </span>
               )}
             </div>
           </div>
@@ -171,12 +160,21 @@ const ProductGridListSingle = ({
             <div className="col-xl-4 col-md-5 col-sm-6">
               <div className="product-list-image-wrap">
                 <div className="product-img">
-                  <Link to={process.env.PUBLIC_URL + "/product/" + product._id}>
+                  <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
                     <img
                       className="default-img img-fluid"
-                      src={process.env.PUBLIC_URL + product.image}
+                      src={process.env.PUBLIC_URL + product.image[0]}
                       alt=""
                     />
+                    {product.image.length > 1 ? (
+                      <img
+                        className="hover-img img-fluid"
+                        src={process.env.PUBLIC_URL + product.image[1]}
+                        alt=""
+                      />
+                    ) : (
+                      ""
+                    )}
                   </Link>
                   {product.discount || product.new ? (
                     <div className="product-img-badges">
@@ -196,18 +194,22 @@ const ProductGridListSingle = ({
             <div className="col-xl-8 col-md-7 col-sm-6">
               <div className="shop-list-content">
                 <h3>
-                  <Link to={process.env.PUBLIC_URL + "/product/" + product._id}>
+                  <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
                     {product.name}
                   </Link>
                 </h3>
                 <div className="product-list-price">
                   {discountedPrice !== null ? (
                     <Fragment>
-                      <span>{finalDiscountedPrice + " VNĐ"}</span>{" "}
-                      <span className="old">{finalProductPrice + " VNĐ"}</span>
+                      <span>
+                        { finalDiscountedPrice +"K" +" VNĐ"}
+                      </span>{" "}
+                      <span className="old">
+                        { finalProductPrice +"K" +" VNĐ"}
+                      </span>
                     </Fragment>
                   ) : (
-                    <span>{finalProductPrice + " VNĐ"} </span>
+                    <span>{ finalProductPrice +"K" +" VNĐ"} </span>
                   )}
                 </div>
                 {product.rating && product.rating > 0 ? (
@@ -242,7 +244,7 @@ const ProductGridListSingle = ({
                       >
                         Select Option
                       </Link>
-                    ) : productStock > 0 ? (
+                    ) : product.stock && product.stock > 0 ? (
                       <button
                         onClick={() => addToCart(product, addToast)}
                         className={

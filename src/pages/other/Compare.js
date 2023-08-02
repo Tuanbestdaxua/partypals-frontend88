@@ -32,7 +32,7 @@ const Compare = ({
           content="Compare page of flone react minimalist eCommerce template."
         />
       </MetaTags>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Trang Chủ</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
         So sánh
       </BreadcrumbsItem>
@@ -49,7 +49,7 @@ const Compare = ({
                       <table className="table table-bordered mb-0">
                         <tbody>
                           <tr>
-                            <th className="title-column">Product Info</th>
+                            <th className="title-column">Thông tin sản phẩm</th>
                             {compareItems.map((compareItem, key) => {
                               const cartItem = cartItems.filter(
                                 item => item.id === compareItem.id
@@ -108,7 +108,7 @@ const Compare = ({
                                       <Link
                                         to={`${process.env.PUBLIC_URL}/product/${compareItem.id}`}
                                       >
-                                        Select Option
+                                        Xem Sản Phẩm
                                       </Link>
                                     ) : compareItem.stock &&
                                       compareItem.stock > 0 ? (
@@ -148,7 +148,7 @@ const Compare = ({
                             })}
                           </tr>
                           <tr>
-                            <th className="title-column">Price</th>
+                            <th className="title-column">Giá</th>
                             {compareItems.map((compareItem, key) => {
                               const discountedPrice = getDiscountPrice(
                                 compareItem.price,
@@ -166,17 +166,17 @@ const Compare = ({
                                     <Fragment>
                                       <span className="amount old">
                                         {
-                                          finalProductPrice + " VNĐ"}
+                                          finalProductPrice +"K" +" VNĐ"}
                                       </span>
                                       <span className="amount">
                                         {
-                                          finalDiscountedPrice + " VNĐ"}
+                                          finalDiscountedPrice +"K" +" VNĐ"}
                                       </span>
                                     </Fragment>
                                   ) : (
                                     <span className="amount">
                                       {
-                                        finalProductPrice + " VNĐ"}
+                                        finalProductPrice +"K" +" VNĐ"}
                                     </span>
                                   )}
                                 </td>
@@ -185,7 +185,7 @@ const Compare = ({
                           </tr>
 
                           <tr>
-                            <th className="title-column">Description</th>
+                            <th className="title-column">Mô tả</th>
                             {compareItems.map((compareItem, key) => {
                               return (
                                 <td className="product-desc" key={key}>
@@ -200,7 +200,7 @@ const Compare = ({
                           </tr>
 
                           <tr>
-                            <th className="title-column">Rating</th>
+                            <th className="title-column">Đánh giá</th>
                             {compareItems.map((compareItem, key) => {
                               return (
                                 <td className="product-rating" key={key}>

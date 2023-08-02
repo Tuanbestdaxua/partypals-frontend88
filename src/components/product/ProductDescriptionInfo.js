@@ -7,7 +7,6 @@ import { addToCart } from "../../redux/actions/cartActions";
 import { addToWishlist } from "../../redux/actions/wishlistActions";
 import { addToCompare } from "../../redux/actions/compareActions";
 import Rating from "./sub-components/ProductRating";
-import Axios from "axios";
 
 
 
@@ -33,7 +32,9 @@ const ProductDescriptionInfo = ({
   const [selectedProductSize, setSelectedProductSize] = useState(
     product.variation ? product.variation[0].size[0].name : ""
   );
-  const [productStock, setProductStock] = useState(false);
+  const [productStock, setProductStock] = useState(
+    product.variation ? product.variation[0].size[0].stock : product.stock
+  );
   const [quantityCount, setQuantityCount] = useState(1);
 
   const productCartQty = getProductCartQuantity(
@@ -43,27 +44,10 @@ const ProductDescriptionInfo = ({
     selectedProductSize
   );
   const [company, setCompany] = React.useState('');
-  const [variation, setVariation] = React.useState(false);
+
   const handleChange = (event) => {
     setCompany(event.target.value);
   };
-  React.useEffect(() => {
-    const getAccountInfo = async () => {
-      Axios({
-        method: "GET",
-        url: `https://partypal-vwog.onrender.com/api/variation/${product._id}`,
-      })
-        .then((res) => {
-          setVariation(res.data.variation);
-          setProductStock(res.data.variation[0].stock);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    };
-    getAccountInfo();
-    // eslint-disable-next-line
-  }, []);
 
   return (
     <div className="product-details-content ml-70">
@@ -71,13 +55,13 @@ const ProductDescriptionInfo = ({
       <div className="product-details-price">
         {discountedPrice !== null ? (
           <Fragment>
-            <span>{ finalDiscountedPrice + " VNĐ"}</span>{" "}
+            <span>{ finalDiscountedPrice +"K" +" VNĐ"}</span>{" "}
             <span className="old">
-              { finalProductPrice + " VNĐ"}
+              { finalProductPrice +"K" +" VNĐ"}
             </span>
           </Fragment>
         ) : (
-          <span>{ finalProductPrice + " VNĐ"} </span>
+          <span>{ finalProductPrice +"K" +" VNĐ"} </span>
         )}
       </div>
       {product.rating && product.rating > 0 ? (
@@ -93,12 +77,12 @@ const ProductDescriptionInfo = ({
         <p>{product.shortDescription}</p>
       </div>
 
-      {variation ? (
+      {product.variation ? (
         <div className="pro-details-size-color">
           <div className="pro-details-color-wrap">
             <span>Color</span>
             <div className="pro-details-color-content">
-              {variation.map((single, key) => {
+              {product.variation.map((single, key) => {
                 return (
                   <label
                     className={`pro-details-color-content--single ${single.color}`}
@@ -113,8 +97,8 @@ const ProductDescriptionInfo = ({
                       }
                       onChange={() => {
                         setSelectedProductColor(single.color);
-                        // setSelectedProductSize(single.size[0].name);
-                        // setProductStock(single.size[0].stock);
+                        setSelectedProductSize(single.size[0].name);
+                        setProductStock(single.size[0].stock);
                         setQuantityCount(1);
                       }}
                     />

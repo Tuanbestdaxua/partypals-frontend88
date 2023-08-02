@@ -34,7 +34,7 @@ const OrderDetail = ({ location }) => {
                     content="Compare page of flone react minimalist eCommerce template."
                 />
             </MetaTags>
-            <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+            <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Trang Chủ</BreadcrumbsItem>
             <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
                 Chỉ Tiết Đặt Hàng
             </BreadcrumbsItem>

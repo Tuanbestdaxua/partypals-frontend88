@@ -87,21 +87,28 @@ const ProductImageGalleryLeftThumb = ({ product, thumbPosition }) => {
             )}
             <LightgalleryProvider>
               <Swiper {...gallerySwiperParams}>
-                {product.image && (
-                  <div>
-                    <LightgalleryItem
-                      group="any"
-                      src={process.env.PUBLIC_URL + product.image}
-                    >
-                      <button>
-                        <i className="pe-7s-expand1"></i>
-                      </button>
-                    </LightgalleryItem>
-                    <div className="single-image">
-                      <img src={product.image} className="img-fluid" alt="" />
-                    </div>
-                  </div>
-                )}
+                {product.image &&
+                  product.image.map((single, key) => {
+                    return (
+                      <div key={key}>
+                        <LightgalleryItem
+                          group="any"
+                          src={process.env.PUBLIC_URL + single}
+                        >
+                          <button>
+                            <i className="pe-7s-expand1"></i>
+                          </button>
+                        </LightgalleryItem>
+                        <div className="single-image">
+                          <img
+                            src={process.env.PUBLIC_URL + single}
+                            className="img-fluid"
+                            alt="Description of the image"
+                          />
+                        </div>
+                      </div>
+                    );
+                  })}
               </Swiper>
             </LightgalleryProvider>
           </div>
@@ -115,13 +122,20 @@ const ProductImageGalleryLeftThumb = ({ product, thumbPosition }) => {
         >
           <div className="product-small-image-wrapper product-small-image-wrapper--side-thumb">
             <Swiper {...thumbnailSwiperParams}>
-              {product.image && (
-                <div>
-                  <div className="single-image">
-                    <img src={product.image} className="img-fluid" alt="" />
-                  </div>
-                </div>
-              )}
+              {product.image &&
+                product.image.map((single, key) => {
+                  return (
+                    <div key={key}>
+                      <div className="single-image">
+                        <img
+                          src={process.env.PUBLIC_URL + single}
+                          className="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  );
+                })}
             </Swiper>
           </div>
         </div>

@@ -40,7 +40,7 @@ const Cart = ({
         />
       </MetaTags>
 
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Trang Chủ</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
         Giỏ Hàng
       </BreadcrumbsItem>
@@ -134,17 +134,17 @@ const Cart = ({
                                     <Fragment>
                                       <span className="amount old">
                                         {
-                                          finalProductPrice + " VNĐ"}
+                                          finalProductPrice +"K" +" VNĐ"}
                                       </span>
                                       <span className="amount">
                                         {
-                                          finalDiscountedPrice + " VNĐ"}
+                                          finalDiscountedPrice +"K" +" VNĐ"}
                                       </span>
                                     </Fragment>
                                   ) : (
                                     <span className="amount">
                                       {
-                                        finalProductPrice + " VNĐ"}
+                                        finalProductPrice +"K" +" VNĐ"}
                                     </span>
                                   )}
                                 </td>
@@ -194,11 +194,11 @@ const Cart = ({
                                     ? 
                                       (
                                         finalDiscountedPrice * cartItem.quantity
-                                      ).toFixed(2) + " VNĐ"
+                                      ).toFixed(2) +"K" +" VNĐ"
                                     : 
                                       (
                                         finalProductPrice * cartItem.quantity
-                                      ).toFixed(2) + " VNĐ"}
+                                      ).toFixed(2) +"K" +" VNĐ"}
                                 </td>
 
                                 <td className="product-remove">
@@ -238,49 +238,7 @@ const Cart = ({
                 </div>
 
                 <div className="row">
-                  <div className="col-lg-4 col-md-6">
-                    <div className="cart-tax">
-                      <div className="title-wrap">
-                        <h4 className="cart-bottom-title section-bg-gray">
-                          Ước Tính Vận Chuyển Và Thuế
-                        </h4>
-                      </div>
-                      <div className="tax-wrapper">
-                        <p>
-                          Nhập điểm đến của bạn để có ước tính vận chuyển.
-                        </p>
-                        <div className="tax-select-wrapper">
-                          <div className="tax-select">
-                            <label>* Quốc Gia</label>
-                            <select className="email s-email s-wid">
-                              <option>Bangladesh</option>
-                              <option>Albania</option>
-                              <option>Åland Islands</option>
-                              <option>Afghanistan</option>
-                              <option>Belgium</option>
-                            </select>
-                          </div>
-                          <div className="tax-select">
-                            <label>* Vùng / Bang</label>
-                            <select className="email s-email s-wid">
-                              <option>Bangladesh</option>
-                              <option>Albania</option>
-                              <option>Åland Islands</option>
-                              <option>Afghanistan</option>
-                              <option>Belgium</option>
-                            </select>
-                          </div>
-                          <div className="tax-select">
-                            <label>* Zip/Mã Bưu Điện</label>
-                            <input type="text" />
-                          </div>
-                          <button className="cart-btn-2" type="submit">
-                            Nhận Báo Giá
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
 
                   <div className="col-lg-4 col-md-6">
                     <div className="discount-code-wrapper">
@@ -311,14 +269,14 @@ const Cart = ({
                       <h5>
                         Tổng Giá Sản Phẩm{" "}
                         <span>
-                          { cartTotalPrice.toFixed(2) + " VNĐ"}
+                          { cartTotalPrice.toFixed(2) +"K" +" VNĐ"}
                         </span>
                       </h5>
 
                       <h4 className="grand-totall-title">
                         Tổng Cộng{" "}
                         <span>
-                          { cartTotalPrice.toFixed(2) + " VNĐ"}
+                          { cartTotalPrice.toFixed(2) +"K" +" VNĐ"}
                         </span>
                       </h4>
                       <Link to={process.env.PUBLIC_URL + "/checkout"}>

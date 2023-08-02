@@ -43,7 +43,7 @@ const HomeFashionEight = () => {
       </Modal>  }
 
       <MetaTags>
-        <title>PartyPaLs | Home</title>
+        <title>PartyPaLs | Trang Chủ</title>
         <meta
           name="description"
           content="Fashion home of flone react minimalist eCommerce template."

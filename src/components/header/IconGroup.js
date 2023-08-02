@@ -57,41 +57,7 @@ const IconGroup = ({
     <div
       className={`header-right-wrap ${iconWhiteClass ? iconWhiteClass : ""}`}
     >
-      <div className="same-style header-search d-none d-lg-block">
-        {isLogin && 
-        <Notifications
-          style={{ marginLeft: '-100px', zIndex: '220' }}
-          data={[
-            {
-              image: '/assets/img/team/2.jpg',
-              message: (
-                <p>
-                  Tuấn Anh Trần had shared a{' '}
-                  <span style={{ color: '#7ac2fa' }}>feedback</span> with you.
-                </p>
-              ),
-              detailPage: '/',
-            },
-            {
-              image: '/assets/img/team/2.jpg',
-              message: (
-                <p>
-                  Tuấn Anh Trần had shared a{' '}
-                  <span style={{ color: '#7ac2fa' }}>feedback</span> with you.
-                </p>
-              ),
-              detailPage: '/',
-            },
-          ]}
-          header={{
-            title: 'Thông báo',
-            option: { text: 'View All', onClick: () => console.log('Clicked') },
-          }}
-          className="okrjoy"
-          icon={'https://cdn-icons-png.flaticon.com/512/3119/3119338.png'}
-        />}
-
-      </div>
+      
 
       <div className="same-style header-compare">
         <Link to={process.env.PUBLIC_URL + "/compare"}>

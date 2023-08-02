@@ -51,8 +51,8 @@ const MenuCart = ({ cartData, currency, deleteFromCart }) => {
                     <h6>Qty: {single.quantity}</h6>
                     <span>
                       {discountedPrice !== null
-                        ?  finalDiscountedPrice + " VNĐ"
-                        :  finalProductPrice + " VNĐ"}
+                        ?  finalDiscountedPrice +"K" +" VNĐ"
+                        :  finalProductPrice +"K" +" VNĐ"}
                     </span>
                     {single.selectedProductColor &&
                     single.selectedProductSize ? (
